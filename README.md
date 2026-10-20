@@ -17,7 +17,8 @@ What passed review in [Physlib](https://github.com/leanprover-community/physlib)
 Nava–Robertson–Schrödinger uncertainty on the three-torus `T³`: three closed axes, every state.
 
 - **[`nava-robertson-schrodinger`](https://github.com/naype888-cloud/nava-robertson-schrodinger)** — README and interactive page open on `T³`
-- `nrs3-tritoro` — the Lean of `T³` *(in preparation, not published yet)*
+- [`nrs3-tritoro`](https://github.com/naype888-cloud/nrs3-tritoro) — the Lean of `T³`, on [`nrs3-hopf`](https://github.com/naype888-cloud/nrs3-hopf)
+- Pages on `T³`: [de Sitter](https://naype888-cloud.github.io/nrs3-de-sitter/t3.html) · [SL(2, ℂ) and the cone](https://naype888-cloud.github.io/nrs3-uncertainty-cone/lorentz-t3.html)
 
 ## 3 · NRS³ | variations
 
