@@ -10,7 +10,7 @@
 
 ---
 
-## 🏛️ L'Unification Fonctorielle : Architecture Bourbaki
+## 🏛️ L'Échelle Fonctorielle : Réseau, Jauge et Gravitation
 
 La physique théorique contemporaine s'est historiquement fragmentée en domaines étanches : la dispersion réticulaire en matière condensée, le confinement non abélien des théories de jauge, et la gravitation en champ faible.
 
@@ -19,7 +19,7 @@ la non-saturation de l'incertitude quantique sur les graphes cubiques discrets (
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/lagrangian_bourbaki.png" alt="L'Action Unifiée de Bourbaki : Jauge, Réseau et Gravitation" width="960">
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/action_unifiee.png" alt="L'Action Unifiée : Secteurs de Jauge, Matière et Gravitation" width="960">
 
 </div>
 
@@ -51,7 +51,7 @@ Incertitude de Nava–Robertson–Schrödinger sur le tri-tore $\mathbb{T}^3$ : 
 
 | Dépôt Source | Objet Mathématique & Démonstrations Certifiées | Portail Interactif 3D |
 |---|---|:---:|
-| **[`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method)** | **Gap Spectral de Yang–Mills & Pont Gravitationnel :** Traité Bourbaki en 8 étapes constructives. Matrice de transfert, chirurgie topologique de Perelman, annulation spectrale de Wightman $\Delta_{\mathrm{YM}} \ge \Lambda_{\mathrm{YM}}\sqrt{C^2 - 1} > 0$. Couplage adimensionnel de Planck $\alpha_G = \Lambda^2 (C^2 - 1) / M_P^2$ (`0 sorry`). | [▶ Explorateur 3D de Preuves](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/) |
+| **[`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method)** | **Gap Spectral de Yang–Mills & Pont Gravitationnel :** Traité axiomatique en 8 étapes constructives. Matrice de transfert, chirurgie topologique de Perelman, annulation spectrale de Wightman $\Delta_{\mathrm{YM}} \ge \Lambda_{\mathrm{YM}}\sqrt{C^2 - 1} > 0$. Couplage adimensionnel de Planck $\alpha_G = \Lambda^2 (C^2 - 1) / M_P^2$ (`0 sorry`). | [▶ Explorateur 3D de Preuves](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/) |
 | **[`nrs3-tightbinding`](https://github.com/naype888-cloud/nrs3-tightbinding)** | **Le Tableau Périodique 3D sur $\mathbb{Z}^3$ :** Les 118 éléments chimiques (H–Og) construits par saut discret sur arêtes cubiques ($T_d:P_d$). Courbure analytique exacte de bande $E''(0) = 2ta^2$ et masse effective $m^* = \hbar^2/(2ta^2)$. | [▶ Tableau Périodique 3D](https://naype888-cloud.github.io/nrs3-tightbinding/) |
 | **[`nrs3-defect-curvature`](https://github.com/naype888-cloud/nrs3-defect-curvature)** | **Défaut de Transport et Courbure :** Le défaut de transport fixe la courbure d'espace-temps sous le théorème de Gauss–Bonnet. Les liens non-locaux ferment les cycles topologiques, chacun portant un quantum de défaut. | [▶ Simulation Cône & Défaut](https://naype888-cloud.github.io/nrs3-defect-curvature/) |
 
