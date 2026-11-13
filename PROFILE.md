@@ -17,15 +17,11 @@ La physique théorique contemporaine s'est historiquement fragmentée en domaine
 Sous le vérificateur formel **Lean 4**, cet écosystème établit une chaîne déductive ininterrompue et rigoureusement certifiée par machine :
 la non-saturation de l'incertitude quantique sur les graphes cubiques discrets ($\mathbb{Z}^d, d \ge 4$) engendre un défaut algébrique irréductible ($C_N(d)^2 - 1 = C_M(d) > 0$) qui détermine simultanément la **courbure de bande et la masse effective**, le **gap spectral de masse de Yang–Mills**, et le **couplage gravitationnel sans dimension** :
 
-$$
-\mathcal{L}_{\mathrm{Bourbaki}} = \underbrace{-\frac{1}{4}\operatorname{Tr}\left(F_{\mu\nu}F^{\mu\nu}\right)}_{\text{Secteur Yang–Mills } SU(N)} + \underbrace{\bar{\psi}\left(i\gamma^\mu D_\mu - \Lambda_{\mathrm{YM}}\sqrt{C_N(d)^2 - 1}\right)\psi}_{\text{Masse du Défaut } NRS^3} + \underbrace{\frac{M_P^2}{2} R}_{\text{Gravitation de Planck}}
-$$
+<div align="center">
 
-$$
-\alpha_G \equiv \frac{G m^2}{\hbar c} = \frac{m^2}{M_P^2} = \frac{\Lambda_{\mathrm{YM}}^2 \cdot (C_N(d)^2 - 1)}{M_P^2}
-$$
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/lagrangian_bourbaki.png" alt="L'Action Unifiée de Bourbaki : Jauge, Réseau et Gravitation" width="960">
 
-> *« Il est plus important que les équations possèdent une beauté mathématique que de s'accorder immédiatement aux expériences, car la vérité de la Nature s'exprime dans la perfection de ses lois fondamentales. »* — **P. A. M. Dirac**
+</div>
 
 ---
 
