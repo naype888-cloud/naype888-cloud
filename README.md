@@ -2,20 +2,12 @@
 
 ### Épinglés
 
-<table>
-<tr>
-<td><a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="470"></a></td>
-<td><a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="470"></a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="470"></a></td>
-<td><a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="nrs3-tightbinding" width="470"></a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="nrs3-cristales" width="470"></a></td>
-<td><a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="bacqm-systems" width="470"></a></td>
-</tr>
-</table>
+<a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="440"></a>
+<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="440"></a>
+<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="440"></a>
+<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="nrs3-tightbinding" width="440"></a>
+<a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="nrs3-cristales" width="440"></a>
+<a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="bacqm-systems" width="440"></a>
 
 </div>
 
@@ -141,7 +133,7 @@ Le framework complet est l'ensemble des [**50 pull requests fusionnées dans `le
 
 <div align="center">
 
-<img src="assets/plaque_physlib_4_piliers.png" alt="PR 1725 (Cube 3D), PR 1734 (Limite de Szegő), PR 1735 (Monotonie), PR 1739 (Mandelstam–Tamm)" width="960">
+<img src="assets/plaque_physlib_4_piliers.png" alt="Les cinq piliers canoniques dans Physlib : Cube 3D, Hopf, Schur, Szegő et Mandelstam–Tamm, Clifford" width="960">
 
 </div>
 
