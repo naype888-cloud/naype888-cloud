@@ -134,7 +134,7 @@ Démontrant rigoureusement l'existence d'un état fondamental unique et d'un gap
 
 *« Tout le framework naît de ce théorème premier : rien ne préexiste à la saturation du commutateur élémentaire. »*
 
-Toute cette architecture déductive prend sa source dans le **Théorème d'Incertitude Dimensionnelle Élémentaire** (*Elemental Dimensional Uncertainty*), formalisé dans la **Pull Request [#1725](https://github.com/leanprover-community/physlib/pull/1725)** de Physlib :
+Toute cette architecture déductive prend sa source dans le **Théorème d'Incertitude Dimensionnelle Élémentaire** (*Elemental Dimensional Uncertainty*), formalisé dans la **Pull Request [#1725](https://github.com/leanprover-community/physlib/pull/1725)** de Physlib :							
 
 <div align="center">
 
