@@ -2,12 +2,12 @@
 
 ### Épinglés
 
-<a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="440"></a>
-<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="440"></a>
-<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="440"></a>
-<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="nrs3-tightbinding" width="440"></a>
-<a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="nrs3-cristales" width="440"></a>
-<a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="bacqm-systems" width="440"></a>
+<a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="410"></a>
+<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="410"></a>
+<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="nrs3-tightbinding" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="nrs3-cristales" width="410"></a>
+<a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="bacqm-systems" width="410"></a>
 
 </div>
 
