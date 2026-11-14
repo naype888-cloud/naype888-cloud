@@ -51,7 +51,7 @@ Incertitude de Nava–Robertson–Schrödinger sur le tri-tore $\mathbb{T}^3$ : 
 
 | Dépôt Source | Objet Mathématique & Démonstrations Certifiées | Portail Interactif 3D |
 |---|---|:---:|
-| **[`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method)** | **Gap Spectral de Yang–Mills & Pont Gravitationnel :** Traité axiomatique en 8 étapes constructives. Matrice de transfert, chirurgie topologique de Perelman, annulation spectrale de Wightman $\Delta_{\mathrm{YM}} \ge \Lambda_{\mathrm{YM}}\sqrt{C^2 - 1} > 0$. Couplage adimensionnel de Planck $\alpha_G = \Lambda^2 (C^2 - 1) / M_P^2$ (`0 sorry`). | [▶ Explorateur 3D de Preuves](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/) |
+| **[`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method)** | **Gap Spectral de Yang–Mills & Pont Gravitationnel :** Traité axiomatique unifié (Physlib / D8_Szego approuvé). Matrice de transfert, annulation spectrale de Wightman et axiome maître : *« Le gap de masse est le coût énergétique du temps quantique »* ($\Delta_{\mathrm{YM}} \ge \Lambda_{\mathrm{YM}}\sqrt{C_M(d)} > 0$). Couplage adimensionnel de Planck $\alpha_G = \Lambda^2 C_M(d) / M_P^2$ (`0 sorry`). | [▶ Explorateur 3D de Preuves](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/) |
 | **[`nrs3-tightbinding`](https://github.com/naype888-cloud/nrs3-tightbinding)** | **Le Tableau Périodique 3D sur $\mathbb{Z}^3$ :** Les 118 éléments chimiques (H–Og) construits par saut discret sur arêtes cubiques ($T_d:P_d$). Courbure analytique exacte de bande $E''(0) = 2ta^2$ et masse effective $m^* = \hbar^2/(2ta^2)$. | [▶ Tableau Périodique 3D](https://naype888-cloud.github.io/nrs3-tightbinding/) |
 | **[`nrs3-defect-curvature`](https://github.com/naype888-cloud/nrs3-defect-curvature)** | **Défaut de Transport et Courbure :** Le défaut de transport fixe la courbure d'espace-temps sous le théorème de Gauss–Bonnet. Les liens non-locaux ferment les cycles topologiques, chacun portant un quantum de défaut. | [▶ Simulation Cône & Défaut](https://naype888-cloud.github.io/nrs3-defect-curvature/) |
 
@@ -82,7 +82,8 @@ Chaque énoncé mathématique et physique compile strictement sous la base axiom
 
 | Théorème Mathématique / Physique | Déclaration Formelle dans le Noyau | Statut Axiomatique |
 |---|---|:---:|
-| **Plancher du Défaut de Robertson–Schrödinger** | `FibreSurgery.massFn_floor_pos` ($C_N(d)^2 - 1 > 0$) | **0 sorry · Certifié** |
+| **Plancher du Défaut de Robertson–Schrödinger** | `TotalUnifiedGap.massSq4_pos` ($C_N(4)^2 - 1 \approx 0.0170 > 0$) | **0 sorry · Certifié** |
+| **Axiome Maître du Temps Quantique** | `TotalUnifiedGap.mass_gap_identically_quantum_time_cost` | **0 sorry · Certifié** |
 | **Courbure Analytique de Bande** | `GravitationalBridge.deriv_deriv_dispersion_zero` ($E''(0) = 2ta^2$) | **0 sorry · Certifié** |
 | **Masse Inertielle Effective** | `GravitationalBridge.effectiveMass_eq_hbar_sq_div_deriv_deriv` | **0 sorry · Certifié** |
 | **Identité Croisée de Cohérence** | `CrossIdentity_CM_algebra` ($C_N(d+1)^2 = \mathrm{CoherenceConstantSq}(d)$) | **0 sorry · Certifié** |
