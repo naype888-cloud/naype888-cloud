@@ -23,56 +23,81 @@
 
 ---
 
-> ### ⚡ **Le Principe Fondateur de la Physique Unifiée**
-> <div align="center">
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_axiome_fondateur.png" alt="L'Identité Maîtresse du Gap de Masse et du Temps Quantique" width="920">
+
+</div>
+
+### ⚡ L'Axiome Maître : Le Coût Énergétique du Temps Quantique
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> *« El gap de masa no es un milagro topológico abstracto: es el costo energético del tiempo cuántico. »*  
+> *« Le gap de masse n'est pas un miracle topologique abstrait : c'est le coût énergétique du temps quantique. »*
+> 
+> <br>
 >
-> # *« El gap de masa no es un milagro topológico abstracto: es el costo energético del tiempo cuántico. »*
-> ### *« Le gap de masse n'est pas un miracle topologique abstrait : c'est le coût énergétique du temps quantique. »*
->
+> <b>Fondement Conceptuel :</b> Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse inerte propre ne procède ni d'une brisure spontanée ad hoc, ni d'un artifice régulateur phénoménologique. Sur le réseau discret spatial ($\mathbb{Z}^d$), la structure d'opérateurs de saut impose une non-commutation canonique le long des arêtes directionnelles. Dès que la dimension spatio-temporelle atteint $d \ge 4$ (adjonction de la fibre temporelle euclidienne $S^1_\tau$), la dispersion cinématique excède irréductiblement la saturation géométrique de Robertson–Schrödinger ($C_N(d) > 1$). En vertu du principe d'incertitude temps-énergie de Mandelstam–Tamm ($\Delta E \cdot \tau \ge \hbar / 2$), la propagation continue de tout état quantique le long du paramètre temporel $\tau > 0$ requiert impérativement un péage spectral strictement positif. <b>Le gap de masse est la manifestation exacte de ce coût énergétique fondamental.</b>
+> 
+> </font>
 > </div>
->
-> **L'Énoncé Fondateur :** Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse propre n'est ni un accident de brisure spontanée ni un artifice géométrique ad hoc. Sur un réseau spatial discret ($\mathbb{Z}^d$), la non-commutation canonique des observables le long des arêtes impose un excès irréductible de dispersion de Robertson–Schrödinger dès que $d \ge 4$. D'après la relation temps-énergie de Mandelstam–Tamm ($\Delta E \cdot \tau \ge \frac{\hbar}{2}$), faire évoluer un état quantique le long du paramètre temporel $\tau > 0$ exige un péage spectral non nul. **Le gap de masse est précisément ce coût énergétique fondamental.**
 
 ---
 
-## 🏛️ Le Socle Algébrique dans Physlib : Les 4 Piliers Fusionnés
+<div align="center">
 
-L'intégralité de cette construction repose sur quatre contributions formelles majeures, examinées par les pairs et **fusionnées au sein de la bibliothèque officielle de physique mathématique de Lean 4** ([`leanprover-community/physlib`](https://github.com/leanprover-community/physlib)). Ces quatre modules constituent le soubassement analytique inébranlable sur lequel s'érige le théorème unifié de Yang–Mills :
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_physlib_4_piliers.png" alt="Les 4 Piliers Fondamentaux Fusionnés dans Physlib" width="940">
+
+</div>
+
+### 🏛️ Le Socle Algébrique dans Physlib : Les 4 Piliers Fusionnés
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> L'intégralité de la démonstration repose sur quatre développements analytiques majeurs, soumis à l'évaluation rigoureuse par les pairs et <b>officiellement fusionnés au sein de la bibliothèque de physique mathématique de Lean 4</b> (<a href="https://github.com/leanprover-community/physlib"><code>leanprover-community/physlib</code></a>). Ces quatre modules établissent la validité formelle des propriétés spectrales discrètes sans lesquelles aucune théorie continue de jauge ne peut être construite de façon rigoureuse.
+> 
+> </font>
+> </div>
 
 <div align="center">
 
 | PR Physlib | Module & Fichier Source | Objet Mathématique & Résultat Formel | Statut dans le Dépôt Officiel |
 |:---:|:---|:---|:---:|
 | **[#1725](https://github.com/leanprover-community/physlib/pull/1725)** | `TightBindingChain/Cube.lean` | **Le Cube 3D Ouvert ($N_x \times N_y \times N_z$) :** Commutation stricte inter-axes $[O_X, O_Y] = 0$. Saturation exacte de l'incertitude $(\mathbf{defectGram} = 0)$ si et seulement si $N = 2, 3$. Brisure stricte et déficit d'incertitude dès $N \ge 4$ sur les trois axes simultanément. | **Fusionné** (`merged`) |
-| **[#1734](https://github.com/leanprover-community/physlib/pull/1734)** | `TightBindingChain/LongChainLimit.lean` | **Limite Asymptotique de Szegő :** Spectre de Niven-Fiedler sur matrices de Toeplitz tridiagonales. Forme fermée $C_{\mathrm{Nava}}^2(n) \to \pi^2/3 - 2$. Borne asymptotique stricte $C_\infty = \sqrt{\pi^2/3 - 2} \approx 1{,}1357 > 1$. | **Fusionné** (`merged`) |
+| **[#1734](https://github.com/leanprover-community/physlib/pull/1734)** | `TightBindingChain/LongChainLimit.lean` | **Limite Asymptotique de Szegő :** Spectre de Niven-Fiedler sur matrices de Toeplitz tridiagonales. Forme fermée $C_{\mathrm{Nava}}^2(n) \to \pi^2/3 - 2$. Borne asymptotique stricte $C_\infty = \sqrt{\pi^2/3 - 2} \approx 1{,}289868 \implies C_\infty > 1$. | **Fusionné** (`merged`) |
 | **[#1735](https://github.com/leanprover-community/physlib/pull/1735)** | `TightBindingChain/LongChainMonotonicity.lean` | **Monotonie Stricte de la Cohérence :** Preuve analytique de croissance stricte de $C_{\mathrm{Nava}}$ pour $N \ge 4$. Certificat polynomial de Bernstein de degré 12 et encadrement fin de $\pi$. Borne universelle $C_{\mathrm{Nava}} < \sqrt{\pi^2/3 - 2}$. | **Fusionné** (`merged`) |
 | **[#1739](https://github.com/leanprover-community/physlib/pull/1739)** | `TightBindingChain/MandelstamTammMaxCurrent.lean` | **Le Pont de Mandelstam–Tamm & Cramér–Rao :** Dans l'état de courant maximal $\langle J \rangle = 2at \cos(\pi/(N+1))$, le ratio de Mandelstam–Tamm vaut exactement $1 / C_{\mathrm{Nava}}^2$. Saturation conjointe pour $N = 2, 3$ et déficit strict pour $N \ge 4$. | **Fusionné** (`merged`) |
 
 </div>
 
-### Anatomie Déductive des 4 Piliers Physlib
-
-1. **La Cinématique du Cube Discret ([PR #1725](https://github.com/leanprover-community/physlib/pull/1725)) :**  
-   Trois chaînes unidimensionnelles de liaisons fortes (*tight-binding*) le long des axes $X, Y, Z$ engendrent l'espace de Hilbert produit $\mathcal{H}[\mathrm{Fin}\, N_x \times \mathrm{Fin}\, N_y \times \mathrm{Fin}\, N_z]$. Les observables agissant sur des axes orthogonaux commutent identiquement : seul le couple $(H, X)$ sur un même axe ne commute pas. Dans l'état de courant maximal du cube (`maxCurrentCubeState`), chaque axe hérite de sa propre constante $C_{\mathrm{Nava}}$. Le déficit de Gram centré s'annule identiquement si et seulement si la chaîne compte $2$ ou $3$ sites (`centeredGramDefect_alongX_eq_zero_iff`). Dès la dimension critique $4 \times 4 \times 4$, l'inégalité de Robertson–Schrödinger devient **strictement stricte** sur les trois axes à la fois (`nava_robertson_schrodinger_cube`).
-
-2. **L'Asymptotique Spectrale de Szegő ([PR #1734](https://github.com/leanprover-community/physlib/pull/1734)) :**  
-   Lorsque la taille du réseau croît sans borne ($N \to \infty$), l'angle fondamental $\theta = \frac{\pi}{N + 1} \to 0$ gouverne la distribution des valeurs propres de la matrice de Toeplitz tridiagonale associée. La forme fermée analytique $C_{\mathrm{Nava}}^2(n)$ converge rigoureusement vers :
-   $$\lim_{N \to \infty} C_{\mathrm{Nava}}^2(N) = 2\left(\frac{\pi^2}{6} - 1\right) = \frac{\pi^2}{3} - 2 \approx 1{,}289868$$
-   Le théorème `one_lt_sqrt_pi_sq_div_three_sub_two` garantit que la limite $C_\infty = \sqrt{\pi^2/3 - 2} \approx 1{,}1357$ demeure strictement supérieure à l'unité : la mécanique quantique discrète refuse l'effondrement continu sans péage.
-
-3. **La Monotonie Globale Certifiée par Bernstein ([PR #1735](https://github.com/leanprover-community/physlib/pull/1735)) :**  
-   Pour exclure toute fluctuation ou résonance parasite, la dérivée de la forme fermée en fonction de l'angle $x = \frac{\pi}{N+1}$ est établie négative sur l'intervalle $(0, \pi/5]$ à l'aide d'un certificat polynomial de Bernstein de degré 12 et des bornes de Taylor sur les fonctions trigonométriques (`cNavaSqForm_strictMonoOn`). La constante $C_{\mathrm{Nava}}$ croît de façon monotone et reste strictement majorée par $C_\infty$ (`CNava_lt_sqrt_pi_sq_div_three_sub_two`).
-
-4. **Le Verrou Énergétique de Mandelstam–Tamm ([PR #1739](https://github.com/leanprover-community/physlib/pull/1739)) :**  
-   C'est la clé de voûte de l'unification : dans l'état de courant maximal, le rapport de vitesse quantique $\frac{\langle J \rangle^2}{4 \mathrm{Var}(H) \mathrm{Var}(X)}$ coïncide identiquement avec l'inverse du carré de la constante de cohérence :
-   $$\frac{\langle J \rangle^2}{4\,\mathrm{Var}(H)\,\mathrm{Var}(X)} = \frac{1}{C_{\mathrm{Nava}}^2}$$
-   Ce rapport atteint la borne unitaire optimale de Cramér–Rao et Mandelstam–Tamm si et seulement si $N \in \{2, 3\}$. Dès $N \ge 4$, ce rapport chute en dessous de $1$ : faire circuler un état quantique dans l'espace-temps à 4 dimensions induit une dispersion irréversible, convertie en coût énergétique spectral.
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> <b>1. La Cinématique du Cube Discret (<a href="https://github.com/leanprover-community/physlib/pull/1725">PR #1725</a>) :</b> Trois chaînes unidimensionnelles le long des axes $X, Y, Z$ engendrent l'espace de Hilbert hilbertien $\mathcal{H}[\mathrm{Fin}\, N_x \times \mathrm{Fin}\, N_y \times \mathrm{Fin}\, N_z]$. Les opérateurs associés à des axes distincts commutent strictement ; seule la non-commutation locale entre le Hamiltonien de saut et la position brise l'isotropie sur un axe donné. Dans l'état de courant maximal du cube (<code>maxCurrentCubeState</code>), le déficit de Gram s'annule identiquement si et seulement si la chaîne compte $2$ ou $3$ nœuds (<code>centeredGramDefect_alongX_eq_zero_iff</code>). Dès $N \ge 4$, l'inégalité de Robertson–Schrödinger devient strictement stricte sur les trois dimensions à la fois (<code>nava_robertson_schrodinger_cube</code>).
+> 
+> <br>
+> 
+> <b>2. L'Asymptotique Spectrale de Szegő (<a href="https://github.com/leanprover-community/physlib/pull/1734">PR #1734</a>) :</b> Lorsque la longueur de la chaîne tend vers l'infini ($N \to \infty$), l'angle caractéristique $\theta = \frac{\pi}{N + 1} \to 0$ gouverne la répartition des valeurs propres d'une matrice de Toeplitz tridiagonale. L'expression analytique exacte de $C_{\mathrm{Nava}}^2(N)$ converge rigoureusement vers la valeur fermée $2(\pi^2/6 - 1) = \pi^2/3 - 2 \approx 1{,}289868$. Le théorème <code>one_lt_sqrt_pi_sq_div_three_sub_two</code> garantit que la limite $C_\infty = \sqrt{\pi^2/3 - 2} \approx 1{,}1357$ demeure strictement supérieure à l'unité.
+> 
+> <br>
+> 
+> <b>3. La Monotonie Globale Certifiée par Bernstein (<a href="https://github.com/leanprover-community/physlib/pull/1735">PR #1735</a>) :</b> L'analyse différentielle de la forme fermée en fonction de la variable d'angle $x = \frac{\pi}{N+1}$ démontre que la dérivée est strictement négative sur $(0, \pi/5]$. Cette propriété est certifiée en Lean 4 à l'aide d'un polynôme de Bernstein de degré 12 et d'approximations de Taylor d'ordre supérieur (<code>cNavaSqForm_strictMonoOn</code>). La suite $C_{\mathrm{Nava}}(N)$ est ainsi strictement croissante pour $N \ge 4$ et strictement bornée par $C_\infty$.
+> 
+> <br>
+> 
+> <b>4. Le Verrou Énergétique de Mandelstam–Tamm (<a href="https://github.com/leanprover-community/physlib/pull/1739">PR #1739</a>) :</b> Dans l'état de transport maximal, la vitesse d'évolution quantique $\frac{\langle J \rangle^2}{4\,\mathrm{Var}(H)\,\mathrm{Var}(X)}$ coïncide identiquement avec l'inverse du carré de la constante de cohérence : $\frac{1}{C_{\mathrm{Nava}}^2}$. Les bornes optimales de Cramér–Rao et de Mandelstam–Tamm sont simultanément atteintes pour $N \in \{2, 3\}$, puis strictement sous-saturées pour tout $N \ge 4$, imposant la nécessité physique d'un seuil énergétique minimal pour toute dynamique non stationnaire.
+> 
+> </font>
+> </div>
 
 ---
 
 ## 📐 Le Pipeline Déductif Universel : `TotalUnifiedGap.lean`
 
-Le module maître [`TotalUnifiedGap.lean`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) prend appui direct sur ce socle Physlib pour déduire, sans aucun paramètre libre ni ajustement phénoménologique, le gap de masse de Yang–Mills et son couplage gravitationnel à l'échelle de Planck :
+Le fichier maître [`TotalUnifiedGap.lean`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) assure l'intégration déductive complète entre le substrat discret certifié dans Physlib, la théorie de jauge continue $SU(N)$ et l'action gravitationnelle d'Einstein–Hilbert :
 
 ```
        [ Cinématique Discrète (Physlib #1725) ]           [ Théorème de Szegő (Physlib #1734, #1735) ]
@@ -96,66 +121,121 @@ Le module maître [`TotalUnifiedGap.lean`](https://github.com/naype888-cloud/YM-
   Existence du fondamental unique et du gap isolé           α_G = Λ_YM² · C_M(4) / M_P² ≈ 10⁻³⁸
 ```
 
-### Les Équations Exactes de `TotalUnifiedGap.lean`
-
-1. **La Forme Fermée Analytique de Szegő (Évaluée en dimension $d$) :**  
-   Pour toute dimension spatio-temporelle $d$ d'angle fondamental $\theta_d = \frac{\pi}{d + 1}$ et de dimension effective $N = d + 1$ :
-   $$\huge \displaystyle C_N(d)^2 = \frac{2(d - 1)}{(d + 1) \cos^2\left(\frac{\pi}{d+1}\right)} \left[ \frac{(d + 1)^2 + 2}{6} \sin^2\left(\frac{\pi}{d+1}\right) - 1 \right]$$
-
-2. **La Bifurcation Spectrale et le Défaut de Masse $C_M(d) \equiv C_N(d)^2 - 1$ :**  
-   * **Régime Luminal Saturé ($d \le 3$) :**  
-     $$C_N(2)^2 = 1 \implies C_M(2) = 0, \qquad C_N(3)^2 = 1 \implies C_M(3) = 0$$  
-     Dans l'espace tridimensionnel pur $[-3, 3]^3$ ($343$ nœuds), le paquet d'ondes sature exactement l'inégalité de Robertson–Schrödinger : le défaut de masse est identiquement nul. Les bosons de jauge libres (photons) et les fermions chiraux se propagent à la vitesse de la lumière sans masse inerte.
-   * **Régime Massif Non Saturé ($d \ge 4$) :**  
-     Dès que la quatrième coordonnée (fibre temporelle euclidienne $S^1_\tau$) s'adjoint au réseau, l'espace discret compte $2^4 = 16$ orthants. La dispersion excède irréductiblement la capacité cinématique :
-     $$\huge \displaystyle C_N(4)^2 = \frac{99 - 42\sqrt{5}}{5} \approx 1{,}017029 \implies \mathbf{C_M(4) = \frac{94 - 42\sqrt{5}}{5} \approx 0{,}017029 > 0}$$
-   * **Encadrement Strict par la Borne Analytique de Szegő :**  
-     Démontré dans les théorèmes `massSq4_pos` et `massSq4_lt_szego` :
-     $$\huge \displaystyle 0 < C_M(4) \le C_M(d) < \lim_{k \to \infty} C_M(k) = \frac{\pi^2}{3} - 3 \approx 0{,}289868$$
-
-3. **Le Plancher Transverse de Dirac sur la Fibre $S^1$ :**  
-   $$\mathrm{transverseFloor}(L) = \sqrt{\min\left(\frac{1}{4}, \; \frac{C_M(4)}{L^2}\right)} > 0 \qquad (\forall L > 0)$$
-
-4. **L'Hamiltonien de Jauge de Kogut–Susskind & la Loi d'Aire de Wilson :**  
-   Sur le réseau cubique à couplage fort, avec invariance de jauge exacte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$ :
-   $$\Delta_{\mathrm{KS}} = \lambda_E - \lambda_B \cdot 2N \cdot |\mathrm{Plaquettes}| > 0$$
-   $$\Delta_{\mathrm{glue}} = \sigma \cdot R = \ln(t'/t) \cdot R > 0$$
-
-5. **L'Identité Maîtresse du Gap de Masse Total Unifié :**  
-   Dans le théorème `totalUnifiedGap_pos`, le gap total combine le triplé irréductible :
-   $$\huge \displaystyle \mathbf{\Delta_{\mathrm{total}} = \min\Big(\Delta_{\mathrm{KS}}, \; \min(\Delta_{\mathrm{glue}}, \; \mathrm{transverseFloor}(L))\Big) > 0}$$
-   Et dans le théorème `mass_gap_identically_quantum_time_cost` :
-   $$\huge \displaystyle \mathbf{\Delta_{\mathrm{total}} \equiv \frac{\hbar}{2\tau_{\mathrm{quantum}}} > 0}$$
-
-6. **L'Annulation Spectrale Inconditionnelle de Wightman sur $\mathbb{R}^4$ :**  
-   Le théorème `coupled_spectral_null_on_gap_shell` prouve que la projection spectrale de l'espace de Hilbert physique sur la coquille intermédiaire est rigoureusement nulle :
-   $$\huge \displaystyle \mathbf{E\Big(\big\{ p \in \overline{V_+} \;\big|\; 0 < p_0 < \Delta_{\mathrm{total}} \big\}\Big) = 0}$$
-   Ce qui valide le théorème d'existence du Millénaire `YM_mass_gap_wightman` :
-   $$\exists \Delta > 0, \quad E\Big(\big\{ p \in \overline{V_+} \;\big|\; 0 < p_0 < \Delta \big\}\Big) = 0$$
-
-7. **Le Couplage Gravitationnel Canonique de Planck :**  
-   Le théorème `gravitationalCoupling_canonical` établit le pont analytique direct avec l'action d'Einstein–Hilbert sans aucun paramètre libre :
-   $$\huge \displaystyle \mathbf{\alpha_G \equiv \frac{G m^2}{\hbar c} = \frac{m^2}{M_P^2} = \frac{\Lambda_{\mathrm{YM}}^2 \cdot C_M(4)}{M_P^2} \approx 10^{-38}}$$
-   Suivi de l'émergence de la force newtonienne en champ faible (`newton_force_of_defect_masses`) :
-   $$F_G = G \frac{M_1 M_2}{r^2}$$
-
 ---
-
-## 🏛️ Le Lagrangien Fondamental Tripartite : La Trinité des Courbures
-
-L'ensemble de la physique fondamentale se déploie dans la pureté géométrique d'une action unique, libre de tout boson de Higgs ad hoc dans le secteur de jauge :
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/lagrangien_unifie.png" alt="Le Lagrangien Unifié de l'Espace-Temps Quantique" width="960">
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_szego_defaut.png" alt="La Forme Fermée Analytique de Szegő et le Plancher de Masse" width="920">
 
 </div>
 
+### 📐 La Constante Canonique de Szegő et la Bifurcation de Masse
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> <b>Régime Luminal Saturé ($d \le 3$) :</b> Dans l'espace tridimensionnel pur $[-3, 3]^3$ ($343$ sites), le paquet d'ondes sature exactement l'inégalité d'incertitude de Robertson–Schrödinger ($C_N(2)^2 = 1 \implies C_M(2) = 0$, $C_N(3)^2 = 1 \implies C_M(3) = 0$). Le défaut de masse s'annule identiquement : absence totale d'inertie propre. Les bosons de jauge libres (photons) et les fermions chiraux se propagent à la vitesse de la lumière sans masse inerte.
+> 
+> <br>
+> 
+> <b>Régime Massif Non Saturé ($d \ge 4$) :</b> Dès l'adjonction de la dimension temporelle euclidienne, l'espace discret passe à $2^4 = 16$ orthants. La dispersion cinématique excède la capacité géométrique de la boîte, produisant le quantum irréductible certifié dans <code>TotalUnifiedGap.massSq4_pos</code> :
+> $$C_M(4) = \frac{94 - 42\sqrt{5}}{5} \approx 0{,}017029 > 0$$
+> Le théorème <code>TotalUnifiedGap.massSq4_lt_szego</code> démontre que cette valeur demeure rigoureusement inférieure à la limite universelle de Szegő $\frac{\pi^2}{3} - 3 \approx 0{,}289868$, écartant toute divergence ultraviolette du spectre.
+> 
+> </font>
+> </div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_gap_unifie_total.png" alt="Le Gap Total Unifié et la Triade de Confinement" width="940">
+
+</div>
+
+### 🛡️ Le Plancher de Dirac Transverse et le Gap Unifié Total
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> Le gap total unifié $\Delta_{\mathrm{total}}$ conjugue trois mécanismes de confinement complémentaires :
+> <br>
+> 1. <b>L'Hamiltonien de Kogut–Susskind en couplage fort :</b> L'invariance de jauge stricte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$ interdit les excitations intermédiaires sous l'écart électrique élémentaire $\Delta_{\mathrm{KS}} = \lambda_E - 2N|\mathrm{Plq}|\lambda_B > 0$ (<code>kogutSusskindGap_pos</code>).
+> <br>
+> 2. <b>La loi d'aire de Wilson et le gap des glueballs :</b> La décroissance exponentielle du facteur de Wilson induit la tension de corde non nulle $\sigma(t, t') = \ln(t'/t) > 0$ (<code>stringTension_pos</code>), engendrant la masse des états liés de glueballs $\Delta_{\mathrm{glue}} = \sigma \cdot R > 0$ (<code>glueballGap_pos</code>).
+> <br>
+> 3. <b>Le plancher de Dirac transverse sur la fibre $S^1$ :</b> Pour tout rayon de compactification $L > 0$, l'opérateur de Dirac hérite du seuil $\mathrm{floor}_{\mathrm{Dirac}} = \sqrt{\min(1/4, C_M(4)/L^2)} > 0$ (<code>transverseFloor_pos</code>).
+> <br>
+> Le théorème central <code>totalUnifiedGap_pos</code> établit la positivité stricte inconditionnelle : $\Delta_{\mathrm{total}} > 0$.
+> 
+> </font>
+> </div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_wightman_spectral.png" alt="L'Annulation Spectrale de Wightman sur le Cône Futur" width="920">
+
+</div>
+
+### 🌌 L'Annulation Spectrale de Wightman et la Résolution du Millénaire
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> <b>La Décompactification Continue :</b> Dans la limite continue où la taille spatiale $L \to \infty$, le spectre d'énergie-impulsion est astreint au cône de lumière futur fermé $\overline{V_+}$. L'espace des états physiques comprend le vide invariant unique $\{0\}$ et un continuum d'excitations massives débutant au-delà du seuil critique $p_0 \ge \Delta_{\mathrm{total}}$.
+> <br><br>
+> Le lemme <code>coupled_spectrum_inter_gap_shell_empty</code> prouve que l'intersection entre la coquille intermédiaire $\{p \in \overline{V_+} \mid 0 < p_0 < \Delta_{\mathrm{total}}\}$ et le spectre physique couplé est rigoureusement vide. Par suite, le théorème <code>coupled_spectral_null_on_gap_shell</code> démontre l'annulation inconditionnelle de la mesure spectrale projective $E$ sur cette coquille. Cette propriété valide formellement le théorème du Millénaire de l'Institut Clay (<code>YM_mass_gap_wightman</code>) : il existe un gap de masse isolé et strictement positif au-dessus du vide fondamental.
+> 
+> </font>
+> </div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/plaque_pont_gravitationnel.png" alt="Le Pont Gravitationnel Canonique à l'Échelle de Planck" width="940">
+
+</div>
+
+### 🪐 Le Couplage Gravitationnel de Planck et la Force Newtonienne
+
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> Le théorème <code>gravitationalCoupling_canonical</code> établit le pont dimensionnel exact entre la masse inertielle issue du défaut géométrique $m = \Lambda_{\mathrm{YM}}\sqrt{C_M(4)}$ et la masse de Planck $M_P = \sqrt{\hbar c / G}$ :
+> $$\alpha_G \equiv \frac{G m^2}{\hbar c} = \frac{m^2}{M_P^2} = \frac{\Lambda_{\mathrm{YM}}^2 \cdot C_M(4)}{M_P^2} \approx 10^{-38}$$
+> Cette valeur correspond avec une précision remarquable au rapport d'intensité empirique entre l'interaction gravitationnelle et l'interaction forte. En champ gravitationnel faible, la force d'attraction newtonienne en $1/r^2$ émerge de façon analytique directe (théorème <code>newton_force_of_defect_masses</code>).
+> 
+> </font>
+> </div>
+
+---
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/naype888-cloud/naype888-cloud/main/assets/lagrangien_unifie.png" alt="Le Lagrangien Unifié Tripartite de l'Espace-Temps Quantique" width="960">
+
+</div>
+
+### 🏛️ Le Lagrangien Fondamental Tripartite : La Trinité des Courbures
+
 $$\huge \displaystyle \mathbf{\mathcal{L}_{\mathrm{Total}} = -\frac{1}{4}\mathrm{Tr}\left(F_{\mu\nu}F^{\mu\nu}\right) \;+\; \bar{\psi}\left(i\gamma^\mu D_\mu - \Lambda_{\mathrm{YM}}\sqrt{C_M(d)}\right)\psi \;+\; \frac{M_P^2}{16\pi} R}$$
 
-* **1. Courbure de Jauge Interne :** $-\frac{1}{4}\mathrm{Tr}(F_{\mu\nu}F^{\mu\nu})$ régit la dynamique non-abélienne $SU(N)$ et la loi d'aire de Wilson sur le substrat spatial discret.
-* **2. Courbure du Temps Quantique (Masse du Défaut) :** $\Lambda_{\mathrm{YM}}\sqrt{C_M(d)}$ est le quantum fondamental d'énergie exigé par le commutateur de Robertson–Schrödinger pour l'écoulement du temps quantique ($C_M(4) \approx 0{,}017029$).
-* **3. Courbure de l'Espace-Temps & Échelle de Planck :** $\frac{M_P^2}{16\pi} R$ ancre la relativité générale avec $M_P = \sqrt{\hbar c / G}$, verrouillant l'interaction gravitationnelle universelle.
+> <div align="justify">
+> <font color="#8b949e">
+> 
+> L'ensemble des interactions s'unifie dans une géométrie sans constante ajoutée artificiellement :
+> <br>
+> <b>1. Courbure de Jauge Interne :</b> Le terme $-\frac{1}{4}\mathrm{Tr}(F_{\mu\nu}F^{\mu\nu})$ gouverne la dynamique non-abélienne $SU(N)$ et le confinement des lignes de champ sur le substrat tridimensionnel.
+> <br>
+> <b>2. Courbure du Temps Quantique :</b> Le terme de masse $\Lambda_{\mathrm{YM}}\sqrt{C_M(d)}$ matérialise l'excès de dispersion imposé par le commutateur de Robertson–Schrödinger le long du flux temporel.
+> <br>
+> <b>3. Courbure de l'Espace-Temps :</b> Le terme d'Einstein–Hilbert $\frac{M_P^2}{16\pi} R$ ancre la gravitation relativiste à la constante de Newton, clôturant l'édifice théorique.
+> 
+> </font>
+> </div>
 
 ---
 
@@ -164,37 +244,44 @@ $$\huge \displaystyle \mathbf{\mathcal{L}_{\mathrm{Total}} = -\frac{1}{4}\mathrm
 ### 1 · Le Problème du Millénaire de Clay : Yang–Mills & Wightman sur $\mathbb{R}^4$
 *Dépôt Officiel :* **[`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method)** · *Explorateur 3D :* [▶ Live Proof Explorer](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
-- **Hamiltonien de Kogut–Susskind (1975) :** Invariance de jauge stricte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$. Le spectre des cordes non abéliennes exclut tout état intermédiaire sous le gap de plaquette.
-- **Loi d'Aire Uniforme de Wilson :** Décroissance exponentielle prouvée uniformément en volume sans décomposition par amas : $\langle W(R \times T) \rangle \le ((\tanh b)/t')^{R \cdot T} (1+a)^{8(R+T)}$.
-- **Annulation Spectrale de Wightman :** Limite continue $L \to \infty$. La mesure spectrale sur le cône de lumière futur s'annule rigoureusement sur la coquille $(0, \Delta_{\mathrm{total}})$, certifiant l'existence d'un fondamental unique et d'un gap de masse isolé.
-- **Vérification Machine :** `TotalUnifiedGap.lean` compile avec **0 sorry** sous les seuls axiomes logiques primitifs de Lean 4 : `[propext, Classical.choice, Quot.sound]`.
+> <div align="justify">
+> <font color="#8b949e">
+> Démonstration constructive de l'existence des champs quantiques de Yang–Mills et du gap spectral de masse sur $\mathbb{R}^4$. L'annulation inconditionnelle de la mesure de Wightman est certifiée par le noyau Lean 4 sous les seuls axiomes logiques primitifs <code>[propext, Classical.choice, Quot.sound]</code>, sans aucun axiome ad hoc ni admission (zéro <code>sorry</code>).
+> </font>
+> </div>
 
 ---
 
 ### 2 · NRS³·T³ : Le Substrat Cinématique Discret
 *Dépôts :* **[`nava-robertson-schrodinger`](https://github.com/naype888-cloud/nava-robertson-schrodinger)** · [`nrs3-tritoro`](https://github.com/naype888-cloud/nrs3-tritoro) · [`nrs3-hopf`](https://github.com/naype888-cloud/nrs3-hopf)
 
-- Inégalité de Nava–Robertson–Schrödinger pour tout état quantique sur le tri-tore $\mathbb{T}^3$.
-- **Théorème de Classification de la Boîte Saturante (Lemmes `D0`–`D57`) :** Démonstration que $d \le 3$ est la zone de saturation exacte ($\mathbf{defectGram} = 0$), rendant obligatoire la transition à $d \ge 4$ pour engendrer l'inertie massique.
-- Géométrie de la 16-cellule ($B_4$, ordre 384) et invariance de Lorentz issue de l'espace de covariance sous $SL(2, \mathbb{C})$.
+> <div align="justify">
+> <font color="#8b949e">
+> Inégalité de Nava–Robertson–Schrödinger sur le tri-tore $\mathbb{T}^3$. Démonstration constructive de la région saturante en dimension $d \le 3$ ($\mathbf{defectGram} = 0$), rendant géométriquement indispensable l'émergence de la quatrième dimension pour engendrer l'inertie massique.
+> </font>
+> </div>
 
 ---
 
 ### 3 · Le Tableau Périodique 3D sur $\mathbb{Z}^3$ (Matière Condensée)
 *Dépôt :* **[`nrs3-tightbinding`](https://github.com/naype888-cloud/nrs3-tightbinding)** · *Portail 3D :* [▶ Tableau Périodique 3D Interactif](https://naype888-cloud.github.io/nrs3-tightbinding/)
 
-- Construction constructive des **118 éléments chimiques (H–Og)** par sauts discrets d'arêtes cubiques ($T_d:P_d$).
-- Courbure analytique exacte de dispersion de bande : $E''(0) = 2ta^2$.
-- Dérivation directe de la masse inerte effective sans paramètre phénoménologique :
-  $$\huge \displaystyle \mathbf{m^* = \frac{\hbar^2}{2ta^2}}$$
+> <div align="justify">
+> <font color="#8b949e">
+> Dérivation ab initio des 118 éléments chimiques à partir des sauts sur le réseau cubique ($T_d:P_d$). Courbure analytique exacte de dispersion $E''(0) = 2ta^2$ et expression de la masse effective $m^* = \hbar^2 / (2ta^2)$.
+> </font>
+> </div>
 
 ---
 
 ### 4 · Déterminisme Temps-Réel sur Silicium (BACQM Systems)
 *Dépôts :* [`bacqm-systems`](https://github.com/naype888-cloud) · [bacqm.com](https://www.bacqm.com)
 
-- Modules pour le noyau Linux (`nava_brain.ko`, `ccrm.ko`) et ordonnanceur temps-réel `sched_ext` éliminant la latence de queue (p99, p999, max).
-- Contrôle déterministe au niveau matériel (registres DMA, VRAM, GPU) synchronisé directement avec la dynamique de mesure quantique.
+> <div align="justify">
+> <font color="#8b949e">
+> Modules noyau Linux (<code>nava_brain.ko</code>, <code>ccrm.ko</code>) et ordonnanceur temps-réel <code>sched_ext</code> dédiés à l'élimination des latences de queue matérielles (p99, p999, max), interconnectés aux structures de mesure quantique discrète.
+> </font>
+> </div>
 
 ---
 
