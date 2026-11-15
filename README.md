@@ -15,7 +15,7 @@
 
 <div align="center">
 
-# TotalUnifiedGap
+# "De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"
 ### L'Unification Géométrique et Spectrale de la Physique en Lean 4
 #### *Un seul opérateur de saut, T_d − P_d, engendre la matière condensée, le gap de masse de Yang–Mills et la gravitation de Newton.*
 
