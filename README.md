@@ -1,7 +1,5 @@
 <div align="center">
 
-### Épinglés
-
 <a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="410"></a>
 <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="410"></a>
 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="410"></a>
