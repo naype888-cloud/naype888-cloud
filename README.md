@@ -90,13 +90,13 @@ Le gap unifié total conjugue trois mécanismes de confinement complémentaires.
 
 </div>
 
-**1 · Hamiltonien de Kogut–Susskind en couplage fort.** L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous le seuil électrique : Δ_KS = λ_E − 2N·|Plq|·λ_B > 0 (`TotalUnifiedGap.kogutSusskindGap_pos`).
+* **$\color{#61AFEF}\mathbf{1 \cdot \text{Hamiltonien de Kogut–Susskind en couplage fort :}}$** L'invariance de jauge exacte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$ interdit toute excitation sous le seuil électrique : $\textcolor{#61AFEF}{\mathbf{(1)} \quad \Delta_{\mathrm{KS}} = \lambda_E - 2N\cdot|\mathrm{Plq}|\cdot\lambda_B > 0}$ ([`TotalUnifiedGap.kogutSusskindGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
 
-**2 · Loi d'aire de Wilson et masse des glueballs.** La décroissance exponentielle du facteur de Wilson donne la tension de corde σ(t, t′) = ln(t′/t) > 0 (`TotalUnifiedGap.stringTension_pos`) et le plancher Δ_glue = σ·R > 0 (`TotalUnifiedGap.glueballGap_pos`).
+* **$\color{#D19A66}\mathbf{2 \cdot \text{Loi d'aire de Wilson et masse des glueballs :}}$** La décroissance exponentielle du facteur de Wilson donne la tension de corde $\textcolor{#D19A66}{\sigma(t, t') = \ln(t'/t) > 0}$ ([`TotalUnifiedGap.stringTension_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)) et le plancher $\textcolor{#D19A66}{\mathbf{(2)} \quad \Delta_{\mathrm{glue}} = \sigma\cdot R > 0}$ ([`TotalUnifiedGap.glueballGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
 
-**3 · Plancher de Dirac transverse sur la fibre S¹.** Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil irréductible C_M(4) : floor_Dirac = √min(1/4, C_M(4)/L²) > 0 (`TotalUnifiedGap.transverseFloor_pos`).
+* **$\color{#98C379}\mathbf{3 \cdot \text{Plancher de Dirac transverse sur la fibre } S^1\text{ :}}$** Pour tout rayon $L > 0$, l'opérateur de Dirac hérite du seuil irréductible $C_M(4)$ : $\textcolor{#98C379}{\mathbf{(3)} \quad \mathrm{floor}_{\mathrm{Dirac}} = \sqrt{\min(1/4, C_M(4)/L^2)} > 0}$ ([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
 
-Le théorème central `TotalUnifiedGap.totalUnifiedGap_pos` établit **Δ_total > 0** sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule sur la coquille 0 < p₀ < Δ_total : c'est `TotalUnifiedGap.YM_mass_gap_wightman`, certifié **0 sorry**.
+Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit $\textcolor{#E5C07B}{\mathbf{\Delta_{\mathrm{total}} > 0}}$ sans condition. Dans la limite de décompactification $L \to \infty$ sur $\mathbb{R}^4$, la mesure spectrale s'annule sur la coquille $0 < p_0 < \Delta_{\mathrm{total}}$ : c'est $\textcolor{#E5C07B}{\mathbf{TotalUnifiedGap.YM\_mass\_gap\_wightman}}$, certifié **0 sorry**.
 
 ---
 
@@ -104,15 +104,15 @@ Le théorème central `TotalUnifiedGap.totalUnifiedGap_pos` établit **Δ_total 
 
 | Théorème Lean 4 | Énoncé | Origine |
 |:---|:---|:---:|
-| `TotalUnifiedGap.YM_mass_gap_wightman` | ∃ Δ > 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0 | TotalUnifiedGap |
-| `TotalUnifiedGap.total_unified_gap_master_bridge` | HasSpectralMassGap(E, Δ_total) | TotalUnifiedGap |
-| `TotalUnifiedGap.totalUnifiedGap_pos` | Δ_total = min(Δ_KS, Δ_glue, floor) > 0 | TotalUnifiedGap |
-| `TotalUnifiedGap.gravitationalCoupling_canonical` | α_G = Gm²/ħc = Λ²_YM · C_M(4)/M_P² ≈ 10⁻³⁸ | TotalUnifiedGap |
-| `TotalUnifiedGap.newton_force_of_defect_masses` | F_G = G·M₁·M₂/r² en champ faible | TotalUnifiedGap |
-| `TotalUnifiedGap.kogutSusskindGap_pos` | λ_E − 2N·\|Plq\|·λ_B > 0 | TotalUnifiedGap |
-| `TotalUnifiedGap.stringTension_pos` | σ(t, t′) = ln(t′/t) > 0 pour 0 < t < t′ | TotalUnifiedGap |
-| `TotalUnifiedGap.glueballGap_pos` | Δ_glue = σ·R > 0 | TotalUnifiedGap |
-| `TotalUnifiedGap.transverseFloor_pos` | √min(1/4, C_M(4)/L²) > 0 pour tout L > 0 | TotalUnifiedGap |
+| `TotalUnifiedGap.YM_mass_gap_wightman` | $\textcolor{#E5C07B}{\exists \Delta > 0, E(\{p \in \overline{V_+} \mid 0 < p_0 < \Delta\}) = 0}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.total_unified_gap_master_bridge` | $\textcolor{#E5C07B}{\mathrm{HasSpectralMassGap}(E, \Delta_{\mathrm{total}})}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.totalUnifiedGap_pos` | $\textcolor{#E5C07B}{\Delta_{\mathrm{total}} = \min\big(\textcolor{#61AFEF}{\mathbf{(1)}\,\Delta_{\mathrm{KS}}}, \min(\textcolor{#D19A66}{\mathbf{(2)}\,\Delta_{\mathrm{glue}}}, \textcolor{#98C379}{\mathbf{(3)}\,\mathrm{floor}})\big) > 0}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.gravitationalCoupling_canonical` | $\alpha_G = Gm^2/\hbar c = \Lambda^2_{\mathrm{YM}} \cdot C_M(4)/M_P^2 \approx 10^{-38}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.newton_force_of_defect_masses` | $F_G = G\cdot M_1\cdot M_2/r^2$ en champ faible | TotalUnifiedGap |
+| `TotalUnifiedGap.kogutSusskindGap_pos` | $\textcolor{#61AFEF}{\mathbf{(1)} \quad \lambda_E - 2N\cdot\|\mathrm{Plq}\|\cdot\lambda_B > 0}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.glueballGap_pos` | $\textcolor{#D19A66}{\mathbf{(2)} \quad \Delta_{\mathrm{glue}} = \sigma\cdot R > 0}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.stringTension_pos` | $\textcolor{#D19A66}{\sigma(t, t') = \ln(t'/t) > 0 \quad (0 < t < t')}$ | TotalUnifiedGap |
+| `TotalUnifiedGap.transverseFloor_pos` | $\textcolor{#98C379}{\mathbf{(3)} \quad \sqrt{\min(1/4, C_M(4)/L^2)} > 0 \quad (\forall L > 0)}$ | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_pos` | C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0 | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
 | `TightBindingChain.Cube.defectGram_eq_zero_iff` | defectGram(d) = 0 ⇔ d ≤ 3 | Physlib #1725 |
