@@ -90,11 +90,20 @@ Le gap unifié total conjugue trois mécanismes de confinement complémentaires.
 
 </div>
 
-* **$\color{#61AFEF}\mathbf{1 \cdot \text{Hamiltonien de Kogut–Susskind en couplage fort :}}$** L'invariance de jauge exacte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$ interdit toute excitation sous le seuil électrique : $\textcolor{#61AFEF}{\mathbf{(1)} \quad \Delta_{\mathrm{KS}} = \lambda_E - 2N\cdot|\mathrm{Plq}|\cdot\lambda_B > 0}$ ([`TotalUnifiedGap.kogutSusskindGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
+* **$\color{#61AFEF}\mathbf{(1)}$ Hamiltonien de Kogut–Susskind en couplage fort :**  
+  L'invariance de jauge exacte $[H_{\mathrm{KS}}, \mathrm{Gauss}_x] = 0$ interdit toute excitation sous le seuil électrique :
+  $$\textcolor{#61AFEF}{\mathbf{(1)} \quad \Delta_{\mathrm{KS}} = \lambda_E - 2N\cdot|\mathrm{Plq}|\cdot\lambda_B > 0}$$
+  *([`TotalUnifiedGap.kogutSusskindGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
-* **$\color{#D19A66}\mathbf{2 \cdot \text{Loi d'aire de Wilson et masse des glueballs :}}$** La décroissance exponentielle du facteur de Wilson donne la tension de corde $\textcolor{#D19A66}{\sigma(t, t') = \ln(t'/t) > 0}$ ([`TotalUnifiedGap.stringTension_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)) et le plancher $\textcolor{#D19A66}{\mathbf{(2)} \quad \Delta_{\mathrm{glue}} = \sigma\cdot R > 0}$ ([`TotalUnifiedGap.glueballGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
+* **$\color{#D19A66}\mathbf{(2)}$ Loi d'aire de Wilson et masse des glueballs :**  
+  La décroissance exponentielle du facteur de Wilson donne la tension de corde $\sigma(t, t') = \ln(t'/t) > 0$ et le plancher massif :
+  $$\textcolor{#D19A66}{\mathbf{(2)} \quad \Delta_{\mathrm{glue}} = \sigma\cdot R > 0}$$
+  *([`TotalUnifiedGap.glueballGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
-* **$\color{#98C379}\mathbf{3 \cdot \text{Plancher de Dirac transverse sur la fibre } S^1\text{ :}}$** Pour tout rayon $L > 0$, l'opérateur de Dirac hérite du seuil irréductible $C_M(4)$ : $\textcolor{#98C379}{\mathbf{(3)} \quad \mathrm{floor}_{\mathrm{Dirac}} = \sqrt{\min(1/4, C_M(4)/L^2)} > 0}$ ([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)).
+* **$\color{#98C379}\mathbf{(3)}$ Plancher de Dirac transverse sur la fibre $S^1$ :**  
+  Pour tout rayon $L > 0$, l'opérateur de Dirac hérite du seuil géométrique irréductible $C_M(4)$ :
+  $$\textcolor{#98C379}{\mathbf{(3)} \quad \mathrm{floor}_{\mathrm{Dirac}} = \sqrt{\min\left(\frac{1}{4}, \; \frac{C_M(4)}{L^2}\right)} > 0}$$
+  *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
 Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit $\textcolor{#E5C07B}{\mathbf{\Delta_{\mathrm{total}} > 0}}$ sans condition. Dans la limite de décompactification $L \to \infty$ sur $\mathbb{R}^4$, la mesure spectrale s'annule sur la coquille $0 < p_0 < \Delta_{\mathrm{total}}$ : c'est $\textcolor{#E5C07B}{\mathbf{TotalUnifiedGap.YM\_mass\_gap\_wightman}}$, certifié **0 sorry**.
 
