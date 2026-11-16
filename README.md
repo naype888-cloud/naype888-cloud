@@ -122,15 +122,15 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 | Théorème Lean 4 | Énoncé | Origine |
 |:---|:---|:---:|
-| `TotalUnifiedGap.YM_mass_gap_wightman` | <img src="assets/triade/c_wightman.png" alt="∃ Δ > 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0" width="264"> | TotalUnifiedGap |
+| `TotalUnifiedGap.YM_mass_gap_wightman` | <img src="assets/triade/c_wightman_2l.png" alt="∃ Δ > 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0" width="264"> | TotalUnifiedGap |
 | `TotalUnifiedGap.total_unified_gap_master_bridge` | <img src="assets/triade/c_master_bridge.png" alt="HasSpectralMassGap(E, Δ_total)" width="261"> | TotalUnifiedGap |
-| `TotalUnifiedGap.totalUnifiedGap_pos` | <img src="assets/triade/c_total_min.png" alt="Δ_total = min((1) Δ_KS, min((2) Δ_glue, (3) floor)) > 0" width="282"> | TotalUnifiedGap |
+| `TotalUnifiedGap.totalUnifiedGap_pos` | <img src="assets/triade/c_total_min_2l.png" alt="Δ_total = min((1) Δ_KS, min((2) Δ_glue, (3) floor)) > 0" width="282"> | TotalUnifiedGap |
 | `TotalUnifiedGap.gravitationalCoupling_canonical` | α_G = Gm²/ħc = Λ²_YM · C_M(4)/M_P² ≈ 10⁻³⁸ | TotalUnifiedGap |
 | `TotalUnifiedGap.newton_force_of_defect_masses` | F_G = G·M₁·M₂/r² en champ faible | TotalUnifiedGap |
 | `TotalUnifiedGap.kogutSusskindGap_pos` | <img src="assets/triade/c_ks.png" alt="(1) λ_E − 2N·∣Plq∣·λ_B > 0" width="212"> | TotalUnifiedGap |
 | `TotalUnifiedGap.glueballGap_pos` | <img src="assets/triade/c_glue.png" alt="(2) Δ_glue = σ·R > 0" width="184"> | TotalUnifiedGap |
-| `TotalUnifiedGap.stringTension_pos` | <img src="assets/triade/c_sigma.png" alt="σ(t, t′) = ln(t′/t) > 0 (0 < t < t′)" width="183"> | TotalUnifiedGap |
-| `TotalUnifiedGap.transverseFloor_pos` | <img src="assets/triade/c_floor.png" alt="(3) √min(1/4, C_M(4)/L²) > 0 (∀ L > 0)" width="273"> | TotalUnifiedGap |
+| `TotalUnifiedGap.stringTension_pos` | <img src="assets/triade/c_sigma_2l.png" alt="σ(t, t′) = ln(t′/t) > 0 (0 < t < t′)" width="183"> | TotalUnifiedGap |
+| `TotalUnifiedGap.transverseFloor_pos` | <img src="assets/triade/c_floor_2l.png" alt="(3) √min(1/4, C_M(4)/L²) > 0 (∀ L > 0)" width="273"> | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_pos` | C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0 | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
 | `TightBindingChain.Cube.defectGram_eq_zero_iff` | defectGram(d) = 0 ⇔ d ≤ 3 | Physlib #1725 |
