@@ -20,12 +20,12 @@
 #### *Un seul opérateur de saut, T_d − P_d, engendre la matière condensée, le gap de masse de Yang–Mills et la gravitation de Newton.*
 
 **Eduardo Nava Hernández**  
-*Formalisation certifiée en Lean 4 · 0 sorry · 50 PRs fusionnées dans Physlib*
+*Formalisation certifiée en Lean 4 · 0 sorry · 51 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.33%20%2F%20v4.35-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
 [![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)]()
-[![Physlib](https://img.shields.io/badge/Physlib-50%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
+[![Physlib](https://img.shields.io/badge/Physlib-51%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
 [![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00e5ff.svg?style=for-the-badge&logo=three.js)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
@@ -145,9 +145,9 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 ---
 
-## 🏛️ Les Canons dans Physlib : 50 Pull Requests Fusionnées
+## 🏛️ Les Canons dans Physlib : 51 Pull Requests Fusionnées
 
-Le framework complet est l'ensemble des [**50 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2). Les canons sont les suivants :
+Le framework complet est l'ensemble des [**51 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2). Les canons sont les suivants :
 
 <div align="center">
 
@@ -155,7 +155,7 @@ Le framework complet est l'ensemble des [**50 pull requests fusionnées dans `le
 
 </div>
 
-* **NRS³ · Cube 3D** ([#1725](https://github.com/leanprover-community/physlib/pull/1725), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987)) : saturation exacte defectGram(d) = 0 ⇔ d ≤ 3, commutation inter-axes, coordination Δ = 12. C'est la source du tight-binding.
+* **NRS³ · Cube 3D & Chaîne Ouverte** ([#1725](https://github.com/leanprover-community/physlib/pull/1725), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987), [#2096](https://github.com/leanprover-community/physlib/pull/2096)) : saturation exacte defectGram(d) = 0 ⇔ d ≤ 3, commutation inter-axes, chaîne ouverte comme saut du graphe chemin (#2096), coordination Δ = 12. C'est la source du tight-binding.
 * **NRS³ · Hopf** ([#1885](https://github.com/leanprover-community/physlib/pull/1885), [#1886](https://github.com/leanprover-community/physlib/pull/1886)) : revêtement SL(2, ℂ) → SO⁺(1,3) et fibration S³ → S² de fibre S¹. C'est la source de la fibration.
 * **Lemme de Schur** ([#1822](https://github.com/leanprover-community/physlib/pull/1822), [#1844](https://github.com/leanprover-community/physlib/pull/1844)) : non-décroissance des formes de covariance sous applications unitales positives.
 * **Spectre et limite de Szegő** ([#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1734](https://github.com/leanprover-community/physlib/pull/1734), [#1735](https://github.com/leanprover-community/physlib/pull/1735), [#1739](https://github.com/leanprover-community/physlib/pull/1739)) : forme fermée C_N² → π²/3 − 2, monotonie de Bernstein d'ordre 12, saturation du ratio de Mandelstam–Tamm à 1/C_N².
@@ -183,7 +183,7 @@ On instancie alors la paire (A, B) sur son conjugué élémentaire, qui définit
 
 </div>
 
-De ce résultat, [#1725](https://github.com/leanprover-community/physlib/pull/1725), découle tout le reste : le lemme de Schur, puis [#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986) et [#1987](https://github.com/leanprover-community/physlib/pull/1987), jusqu'à `TotalUnifiedGap.lean`.
+De ce résultat, [#1725](https://github.com/leanprover-community/physlib/pull/1725), découle tout le reste : le lemme de Schur, puis [#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987) et [#2096](https://github.com/leanprover-community/physlib/pull/2096), jusqu'à `TotalUnifiedGap.lean`.
 
 * **Orthogonalité spatiale.** Les observables d'axes distincts commutent : [O_X, O_Y] = 0, avec un degré de coordination Δ = 12.
 * **Condition universelle de saturation.** defectGram(d) = 0 ⇔ d ≤ 3. Tant que le système est tridimensionnel, le paquet d'ondes sature l'incertitude et aucune inertie n'apparaît. Le passage à d = 4 brise cette saturation et engendre, par cascade déductive, la masse des particules, le confinement de jauge et la gravitation.
