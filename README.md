@@ -131,9 +131,9 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
 | `CondensedMatter.TightBindingChain.centeredGramDefect_alongX_eq_zero_iff` | défaut de Gram centré sur l'axe x = 0 ⇔ N = 2 ∨ N = 3 (N ≥ 2) ; idem y, z | Physlib #1725 |
 | `CondensedMatter.TightBindingChain.bracket_cubePairs_eq_zero_iff` | p ≠ q : [O_p, O_q] = 0 ⇔ p et q sur des axes différents | Physlib #1986 |
-| `CondensedMatter.TightBindingChain.tendsto_uncertaintyRatio` | N → ∞ : C → √(π²/3 − 2) ≈ 1,1357 | Physlib #1734 (nom : #1792) |
-| `CondensedMatter.TightBindingChain.uncertaintyRatio_lt_uncertaintyRatio` | 4 ≤ N < N′ ⇒ C(N) < C(N′) | Physlib #1735 (nom : #1792) |
-| `CondensedMatter.TightBindingChain.mandelstamTammRatio_maxCurrentState` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C² dans l'état de courant maximal | Physlib #1739 |
+| `CondensedMatter.TightBindingChain.tendsto_uncertaintyRatio` | N → ∞ : C_N → √(π²/3 − 2) ≈ 1,1357 | Physlib #1734 (nom : #1792) |
+| `CondensedMatter.TightBindingChain.uncertaintyRatio_lt_uncertaintyRatio` | 4 ≤ N < N′ ⇒ C_N < C_N′ | Physlib #1735 (nom : #1792) |
+| `CondensedMatter.TightBindingChain.mandelstamTammRatio_maxCurrentState` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C_N² dans l'état de courant maximal | Physlib #1739 |
 | `PhyslibAlpha.ProbabilisticTheory.AlgState.covarianceForm_map_le` | Φ(X)⋆Φ(X) ≤ Φ(X⋆X) ⇒ C_ω(ΦX, ΦX) ≤ C_ω′(X, X) | Physlib #1844 |
 | `Fermion.Dirac.isLeast_size_isCliffordFamily` | {γ^μ, γ^ν} = 2η^{μν} : la plus petite taille n des matrices est 4 | Physlib #1768 |
 
