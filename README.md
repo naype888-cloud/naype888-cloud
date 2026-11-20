@@ -18,12 +18,12 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/bacqm-systems.svg"><img src="assets/cards/bacqm-systems.svg" alt="10 · bacqm-systems" width="410"></picture></a>
 
 **Eduardo Nava Hernández**  
-*Formalisation certifiée en Lean 4 · 0 sorry · 51 PRs fusionnées dans Physlib*
+*Formalisation certifiée en Lean 4 · 0 sorry · 52 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
 [![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)]()
-[![Physlib](https://img.shields.io/badge/Physlib-51%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
+[![Physlib](https://img.shields.io/badge/Physlib-52%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
 [![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00e5ff.svg?style=for-the-badge&logo=three.js)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
@@ -129,19 +129,19 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 | `TotalUnifiedGap.transverseFloor_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_floor_2l.png"><img src="assets/triade/c_floor_2l.png" alt="(3) √min(1/4, C_M(4)/L²) > 0 (∀ L > 0)" width="273"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_pos` | C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0 | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
-| `TightBindingChain.Cube.defectGram_eq_zero_iff` | defectGram(d) = 0 ⇔ d ≤ 3 | Physlib #1725 |
-| `TightBindingChain.Cube.axis_observables_commute` | [O_X, O_Y] = 0 pour X ≠ Y | Physlib #1986 |
-| `TightBindingChain.LongChainLimit.szego_limit` | lim C_N(n)² = π²/3 − 2 ≈ 1,289868 | Physlib #1734 |
-| `TightBindingChain.Monotonicity.C_Nava_sq_strict_anti` | C_N(n) < C_N(n+1) | Physlib #1735 |
-| `TightBindingChain.MandelstamTamm.ratio_eq_inv_szego` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C_N² ≤ 1 | Physlib #1739 |
-| `Physlib.CovarianceForm.unital_schwarz_monotone` | Cov_Φ(ρ)(A, B) ≤ Cov_ρ(Φ†(A), Φ†(B)) | Physlib #1844 |
-| `Physlib.Clifford.gamma_matrices_need_four_dim` | {γ^μ, γ^ν} = 2η^{μν} ⇒ d ≥ 4 | Physlib #1768 |
+| `CondensedMatter.TightBindingChain.centeredGramDefect_alongX_eq_zero_iff` | défaut de Gram centré sur l'axe x = 0 ⇔ N = 2 ∨ N = 3 (N ≥ 2) ; idem y, z | Physlib #1725 |
+| `CondensedMatter.TightBindingChain.bracket_cubePairs_eq_zero_iff` | p ≠ q : [O_p, O_q] = 0 ⇔ p et q sur des axes différents | Physlib #1986 |
+| `CondensedMatter.TightBindingChain.tendsto_uncertaintyRatio` | N → ∞ : C → √(π²/3 − 2) ≈ 1,1357 | Physlib #1734 (nom : #1792) |
+| `CondensedMatter.TightBindingChain.uncertaintyRatio_lt_uncertaintyRatio` | 4 ≤ N < N′ ⇒ C(N) < C(N′) | Physlib #1735 (nom : #1792) |
+| `CondensedMatter.TightBindingChain.mandelstamTammRatio_maxCurrentState` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C² dans l'état de courant maximal | Physlib #1739 |
+| `PhyslibAlpha.ProbabilisticTheory.AlgState.covarianceForm_map_le` | Φ(X)⋆Φ(X) ≤ Φ(X⋆X) ⇒ C_ω(ΦX, ΦX) ≤ C_ω′(X, X) | Physlib #1844 |
+| `Fermion.Dirac.isLeast_size_isCliffordFamily` | {γ^μ, γ^ν} = 2η^{μν} : la plus petite taille n des matrices est 4 | Physlib #1768 |
 
 ---
 
-## 🏛️ Les Canons dans Physlib : 51 Pull Requests Fusionnées
+## 🏛️ Les Canons dans Physlib : 52 Pull Requests Fusionnées
 
-Le framework complet est l'ensemble des [**51 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2). Les canons sont les suivants :
+Le framework complet est l'ensemble des [**52 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2). Les canons sont les suivants :
 
 <div align="center">
 
