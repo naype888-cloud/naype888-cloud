@@ -22,8 +22,8 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
-[![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)]()
-[![Physlib](https://img.shields.io/badge/Physlib-52%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
+[![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)](https://github.com/naype888-cloud/lean4-commits)
+[![Physlib](https://img.shields.io/badge/Physlib-52%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud)
 [![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00e5ff.svg?style=for-the-badge&logo=three.js)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
@@ -141,7 +141,7 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 ## 🏛️ Les Canons dans Physlib : 52 Pull Requests Fusionnées
 
-Le framework complet est l'ensemble des [**52 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2). Les canons sont les suivants :
+Le framework complet est l'ensemble des [**52 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud). Les canons sont les suivants :
 
 <div align="center">
 
@@ -187,6 +187,10 @@ De ce résultat, [#1725](https://github.com/leanprover-community/physlib/pull/17
 ## 🛠️ Compilation et Certification du Noyau
 
 ```bash
+# Clone du dépôt maître (YM-By-Perelmans-surgery-method)
+git clone https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method.git
+cd YM-By-Perelmans-surgery-method
+
 # Vérification formelle du module unificateur maître
 lake env lean src/TotalUnifiedGap.lean
 
