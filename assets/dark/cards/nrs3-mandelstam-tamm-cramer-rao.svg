@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="118" viewBox="0 0 480 118" role="img" aria-label="nrs3-mandelstam-tamm-cramer-rao">
+<rect x="0.75" y="0.75" width="478.5" height="116.5" rx="8" fill="none" stroke="#3D444D" stroke-width="1.5"/>
+<path transform="translate(16,15)" fill="#9198A1" stroke="none" stroke-width="0.8" paint-order="stroke" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.5 2.5 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.5 2.5 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+<text x="40" y="28" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#4493F8" stroke="none" stroke-width="1.8" stroke-linejoin="round" paint-order="stroke">9 · nrs3-mandelstam-tamm-cramer-rao</text>
+<text x="16" y="56" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.56" stroke-linejoin="round" paint-order="stroke">Mandelstam–Tamm et Cramér–Rao : aucun état n'est</text>
+<text x="16" y="75" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.56" stroke-linejoin="round" paint-order="stroke">orthogonal à lui-même avant πħ/(2ΔE).</text>
+<circle cx="21" cy="100" r="5" fill="#9198A1" stroke="none" stroke-width="1"/>
+<text x="32" y="104" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.44" stroke-linejoin="round" paint-order="stroke">Lean</text>
+</svg>
