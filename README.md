@@ -82,13 +82,13 @@ Le gap unifié total conjugue trois mécanismes de confinement complémentaires.
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_gap_unifie_total.png"><img src="assets/plaque_gap_unifie_total.png" alt="Δ_total = min(Δ_KS, min(Δ_glue, floor_Dirac)) ></picture> 0" width="960">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_gap_unifie_total.png"><img src="assets/plaque_gap_unifie_total.png" alt="Δ_total = min(Δ_KS, min(Δ_glue, floor_Dirac)) > 0" width="960"></picture>
 
 </div>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_1_kogut_susskind.png"><img src="assets/triade/triade_1_kogut_susskind.png" alt="(1) Hamiltonien de Kogut–Susskind en couplage fort : Δ_KS = λ_E − 2N·|Plq|·λ_B ></picture> 0" width="900">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_1_kogut_susskind.png"><img src="assets/triade/triade_1_kogut_susskind.png" alt="(1) Hamiltonien de Kogut–Susskind en couplage fort : Δ_KS = λ_E − 2N·|Plq|·λ_B > 0" width="900"></picture>
 
 </div>
 
@@ -96,7 +96,7 @@ L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_2_wilson_glueballs.png"><img src="assets/triade/triade_2_wilson_glueballs.png" alt="(2) Loi d'aire de Wilson et masse des glueballs : Δ_glue = σ·R ></picture> 0" width="900">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_2_wilson_glueballs.png"><img src="assets/triade/triade_2_wilson_glueballs.png" alt="(2) Loi d'aire de Wilson et masse des glueballs : Δ_glue = σ·R > 0" width="900"></picture>
 
 </div>
 
@@ -104,13 +104,13 @@ La décroissance exponentielle du facteur de Wilson donne la tension de corde σ
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_3_dirac_transverse.png"><img src="assets/triade/triade_3_dirac_transverse.png" alt="(3) Plancher de Dirac transverse sur la fibre S¹ : floor_Dirac = √min(1/4, C_M(4)/L²) ></picture> 0" width="900">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_3_dirac_transverse.png"><img src="assets/triade/triade_3_dirac_transverse.png" alt="(3) Plancher de Dirac transverse sur la fibre S¹ : floor_Dirac = √min(1/4, C_M(4)/L²) > 0" width="900"></picture>
 
 </div>
 
 Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil géométrique irréductible C_M(4). *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
-Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total ></picture> 0" width="104"> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule sur la coquille 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
+Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total > 0" width="104"></picture> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule sur la coquille 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
 
 ---
 
@@ -118,15 +118,15 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 | Théorème Lean 4 | Énoncé | Origine |
 |:---|:---|:---:|
-| `TotalUnifiedGap.YM_mass_gap_wightman` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_wightman_2l.png"><img src="assets/triade/c_wightman_2l.png" alt="∃ Δ ></picture> 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0" width="264"> | TotalUnifiedGap |
+| `TotalUnifiedGap.YM_mass_gap_wightman` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_wightman_2l.png"><img src="assets/triade/c_wightman_2l.png" alt="∃ Δ > 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0" width="264"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.total_unified_gap_master_bridge` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_master_bridge.png"><img src="assets/triade/c_master_bridge.png" alt="HasSpectralMassGap(E, Δ_total)" width="261"></picture> | TotalUnifiedGap |
-| `TotalUnifiedGap.totalUnifiedGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_min_2l.png"><img src="assets/triade/c_total_min_2l.png" alt="Δ_total = min((1) Δ_KS, min((2) Δ_glue, (3) floor)) ></picture> 0" width="282"> | TotalUnifiedGap |
+| `TotalUnifiedGap.totalUnifiedGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_min_2l.png"><img src="assets/triade/c_total_min_2l.png" alt="Δ_total = min((1) Δ_KS, min((2) Δ_glue, (3) floor)) > 0" width="282"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.gravitationalCoupling_canonical` | α_G = Gm²/ħc = Λ²_YM · C_M(4)/M_P² ≈ 10⁻³⁸ | TotalUnifiedGap |
 | `TotalUnifiedGap.newton_force_of_defect_masses` | F_G = G·M₁·M₂/r² en champ faible | TotalUnifiedGap |
-| `TotalUnifiedGap.kogutSusskindGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_ks.png"><img src="assets/triade/c_ks.png" alt="(1) λ_E − 2N·∣Plq∣·λ_B ></picture> 0" width="212"> | TotalUnifiedGap |
-| `TotalUnifiedGap.glueballGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_glue.png"><img src="assets/triade/c_glue.png" alt="(2) Δ_glue = σ·R ></picture> 0" width="184"> | TotalUnifiedGap |
-| `TotalUnifiedGap.stringTension_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_sigma_2l.png"><img src="assets/triade/c_sigma_2l.png" alt="σ(t, t′) = ln(t′/t) ></picture> 0 (0 < t < t′)" width="183"> | TotalUnifiedGap |
-| `TotalUnifiedGap.transverseFloor_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_floor_2l.png"><img src="assets/triade/c_floor_2l.png" alt="(3) √min(1/4, C_M(4)/L²) ></picture> 0 (∀ L > 0)" width="273"> | TotalUnifiedGap |
+| `TotalUnifiedGap.kogutSusskindGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_ks.png"><img src="assets/triade/c_ks.png" alt="(1) λ_E − 2N·∣Plq∣·λ_B > 0" width="212"></picture> | TotalUnifiedGap |
+| `TotalUnifiedGap.glueballGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_glue.png"><img src="assets/triade/c_glue.png" alt="(2) Δ_glue = σ·R > 0" width="184"></picture> | TotalUnifiedGap |
+| `TotalUnifiedGap.stringTension_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_sigma_2l.png"><img src="assets/triade/c_sigma_2l.png" alt="σ(t, t′) = ln(t′/t) > 0 (0 < t < t′)" width="183"></picture> | TotalUnifiedGap |
+| `TotalUnifiedGap.transverseFloor_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_floor_2l.png"><img src="assets/triade/c_floor_2l.png" alt="(3) √min(1/4, C_M(4)/L²) > 0 (∀ L > 0)" width="273"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_pos` | C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0 | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
 | `TightBindingChain.Cube.defectGram_eq_zero_iff` | defectGram(d) = 0 ⇔ d ≤ 3 | Physlib #1725 |
