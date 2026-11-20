@@ -1,28 +1,26 @@
 <div align="center">
 
-<a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="lean4-commits" width="410"></a>
-<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="nava-robertson-schrodinger" width="410"></a>
-<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="YM-By-Perelmans-surgery-method" width="410"></a>
-<a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><img src="assets/cards/Proper-Time-General-Relativity.svg" alt="Proper-Time-General-Relativity" width="410"></a>
-<a href="https://github.com/naype888-cloud/Anti-Kurt-Godel-Theorem"><img src="assets/cards/Anti-Kurt-Godel-Theorem.svg" alt="Anti-Kurt-Godel-Theorem" width="410"></a>
-<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="nrs3-tightbinding" width="410"></a>
-<a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="nrs3-cristales" width="410"></a>
-<a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="bacqm-systems" width="410"></a>
+<img src="assets/titre_incertitude.png" alt="De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques" width="860">
 
-</div>
+Une seule inégalité sur l'espace de Hilbert des trois axes x, y, z, de dimension d par axe :
+elle sature pour d ≤ 3, devient stricte dès d = 4 et reste bornée par la limite de Szegő.
+Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
----
-
-<div align="center">
-
-# "De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"
-### L'Unification Géométrique et Spectrale de la Physique en Lean 4
-#### *Un seul opérateur de saut, T_d − P_d, engendre la matière condensée, le gap de masse de Yang–Mills et la gravitation de Newton.*
+<a href="https://github.com/naype888-cloud/lean4-commits"><img src="assets/cards/lean4-commits.svg" alt="1 · lean4-commits" width="410"></a>
+<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="2 · nava-robertson-schrodinger" width="410"></a>
+<a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><img src="assets/cards/Proper-Time-General-Relativity.svg" alt="3 · Proper-Time-General-Relativity" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-golab"><img src="assets/cards/nrs3-golab.svg" alt="4 · nrs3-golab" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><img src="assets/cards/nrs3-tightbinding.svg" alt="5 · nrs3-tightbinding" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-cristales"><img src="assets/cards/nrs3-cristales.svg" alt="6 · nrs3-cristales" width="410"></a>
+<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="7 · YM-By-Perelmans-surgery-method" width="410"></a>
+<a href="https://github.com/naype888-cloud/Anti-Kurt-Godel-Theorem"><img src="assets/cards/Anti-Kurt-Godel-Theorem.svg" alt="8 · Anti-Kurt-Godel-Theorem" width="410"></a>
+<a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><img src="assets/cards/nrs3-mandelstam-tamm-cramer-rao.svg" alt="9 · nrs3-mandelstam-tamm-cramer-rao" width="410"></a>
+<a href="https://github.com/naype888-cloud/bacqm-systems"><img src="assets/cards/bacqm-systems.svg" alt="10 · bacqm-systems" width="410"></a>
 
 **Eduardo Nava Hernández**  
 *Formalisation certifiée en Lean 4 · 0 sorry · 51 PRs fusionnées dans Physlib*
 
-[![Lean 4](https://img.shields.io/badge/Lean_4-v4.33%20%2F%20v4.35-blue.svg?style=flat-square)](https://leanprover.github.io/)
+[![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
 [![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)]()
 [![Physlib](https://img.shields.io/badge/Physlib-51%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud&page=2)
@@ -32,23 +30,19 @@
 
 ---
 
-> ### 🏛️ Le module maître : [`TotalUnifiedGap.lean`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean)
+> ### Le cadre en quatre piliers
 >
-> C'est à partir du substrat certifié dans Physlib que se déploie sans friction le module unificateur maître. Ce fichier opère la synthèse déductive entre la géométrie discrète, la théorie de jauge continue et la gravitation d'Einstein.
+> **`C_M(d) = 0` pour d ≤ 3 · `0 < C_M(d) < π²/3 − 3` pour d ≥ 4**  
+> ***Incertitude élémentaire dimensionnelle (Szegő).*** L'état de courant maximal sature Robertson–Schrödinger exactement en d = 2, 3 ; dès d = 4 l'inégalité est stricte, croît avec d et tend vers la limite de Szegő. Forme close, monotonie et limite : Physlib #1718, #1735, #1734.
 >
-> **1 · L'Axiome Maître.** *« Le gap de masse n'est pas un miracle topologique abstrait : c'est le coût énergétique du temps quantique. »* Dans l'espace tridimensionnel pur (d ≤ 3), le paquet d'ondes sature exactement l'inégalité de Heisenberg–Robertson–Schrödinger : le défaut cinématique est nul (C_M(d) = 0), ce qui autorise la propagation de modes sans masse à la vitesse de la lumière (photons libres, fermions chiraux). Dès l'adjonction de l'axe temporel euclidien (d ≥ 4), la dispersion excède irréductiblement la capacité du réseau : le défaut de masse devient un plancher spectral inviolable.
+> **`C_M(4) = (94 − 42√5)/5` · `C_M(d) ∈ [C_M(4), π²/3 − 3)` pour d ≥ 4**  
+> ***Le cadre à quatre sites.*** Premier d non saturé ; à partir de lui la borne est uniforme en d. De `cos(π/5) = (1 + √5)/4` : [`FourSites.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/FourSites.lean).
 >
-> **2 · La Triade de Confinement.** Le gap unifié total combine le gap électrique de Kogut–Susskind sur le réseau spatial, la tension de corde de Wilson qui assure la masse des états liés de glueballs, et le plancher de Dirac transverse sur la fibre S¹.
+> **`m* = 1/E''(0) = 1/(2 t a²)`**  
+> ***La masse.*** Courbure de la bande de la chaîne de liaisons fortes au fond de bande : [`Mass.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/Mass.lean).
 >
-> **3 · L'Annulation Spectrale de Wightman.** Dans la limite continue de décompactification sur ℝ⁴, la mesure spectrale projective d'énergie-impulsion s'annule identiquement sur la coquille intermédiaire au-dessus du cône de lumière futur : l'état fondamental est unique et le gap de masse est isolé.
->
-> **4 · Le Pont Gravitationnel Canonique.** La masse inertielle générée par le défaut géométrique se couple à la masse de Planck M_P ; la constante de couplage adimensionnelle α_G = m²/M_P² ≈ 10⁻³⁸ donne la loi d'attraction newtonienne en champ faible, sans paramètre libre.
-
-<div align="center">
-
-<img src="assets/plaque_total_unified_gap_master.png" alt="TotalUnifiedGap : le module maître — Δ_total = min(Δ_KS, min(Δ_glue, floor_Dirac)) = Λ_YM √C_M(4) = ħ/2τ_quantum > 0" width="960">
-
-</div>
+> **`τ = a / maxCurrent = 1/(φ|t|)` à quatre sites**  
+> ***Le temps.*** Un pas, un espacement à la vitesse limite ; `a` se simplifie et `cos(π/5) = φ/2` : [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
 
 ---
 
