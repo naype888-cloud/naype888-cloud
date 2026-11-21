@@ -4,4 +4,6 @@
 <text x="40" y="28" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#4493F8" stroke="none" stroke-width="1.8" stroke-linejoin="round" paint-order="stroke">5 · nrs3-tightbinding</text>
 <text x="16" y="56" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.56" stroke-linejoin="round" paint-order="stroke">La chaîne de Physlib, le cube ouvert et la table</text>
 <text x="16" y="75" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.56" stroke-linejoin="round" paint-order="stroke">périodique (H–Og), un cube 3D par élément.</text>
+<circle cx="21" cy="100" r="5" fill="#9198A1" stroke="none" stroke-width="1"/>
+<text x="32" y="104" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="400" fill="#9198A1" stroke="none" stroke-width="1.44" stroke-linejoin="round" paint-order="stroke">Lean</text>
 </svg>
