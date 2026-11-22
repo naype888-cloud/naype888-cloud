@@ -6,16 +6,22 @@ Une seule inégalité sur l'espace de Hilbert des trois axes x, y, z, de dimensi
 elle sature pour d ≤ 3, devient stricte dès d = 4 et reste bornée par la limite de Szegő.
 Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
-<a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/lean4-commits.svg"><img src="assets/cards/lean4-commits.svg" alt="1 · lean4-commits" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nava-robertson-schrodinger.svg"><img src="assets/cards/nava-robertson-schrodinger.svg" alt="2 · nava-robertson-schrodinger" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/Proper-Time-General-Relativity.svg"><img src="assets/cards/Proper-Time-General-Relativity.svg" alt="3 · Proper-Time-General-Relativity" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nrs3-golab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nrs3-golab.svg"><img src="assets/cards/nrs3-golab.svg" alt="4 · nrs3-golab" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nrs3-tightbinding.svg"><img src="assets/cards/nrs3-tightbinding.svg" alt="5 · nrs3-tightbinding" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nrs3-cristales"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nrs3-cristales.svg"><img src="assets/cards/nrs3-cristales.svg" alt="6 · nrs3-cristales" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/YM-By-Perelmans-surgery-method.svg"><img src="assets/cards/YM-By-Perelmans-surgery-method.svg" alt="7 · YM-By-Perelmans-surgery-method" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nrs3-completude"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nrs3-completude.svg"><img src="assets/cards/nrs3-completude.svg" alt="8 · nrs3-completude" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/nrs3-mandelstam-tamm-cramer-rao.svg"><img src="assets/cards/nrs3-mandelstam-tamm-cramer-rao.svg" alt="9 · nrs3-mandelstam-tamm-cramer-rao" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/bacqm-systems.svg"><img src="assets/cards/bacqm-systems.svg" alt="10 · bacqm-systems" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/02-proper-time-general-relativity.svg"><img src="assets/cards/02-proper-time-general-relativity.svg" alt="02 · Proper-Time-General-Relativity" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/03-mandelstam-tamm-cramer-rao.svg"><img src="assets/cards/03-mandelstam-tamm-cramer-rao.svg" alt="03 · nrs3-mandelstam-tamm-cramer-rao" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/04-ym-perelman-surgery.svg"><img src="assets/cards/04-ym-perelman-surgery.svg" alt="04 · YM-By-Perelmans-surgery-method" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/05-nrs3-tightbinding.svg"><img src="assets/cards/05-nrs3-tightbinding.svg" alt="05 · nrs3-tightbinding" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-cristales"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/06-nrs3-cristales.svg"><img src="assets/cards/06-nrs3-cristales.svg" alt="06 · nrs3-cristales" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/Anti-Kurt-Godel-Theorem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/07-anti-kurt-godel.svg"><img src="assets/cards/07-anti-kurt-godel.svg" alt="07 · Anti-Kurt-Godel-Theorem" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-golab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/08-nrs3-golab.svg"><img src="assets/cards/08-nrs3-golab.svg" alt="08 · nrs3-golab" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-de-sitter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/09-nrs3-de-sitter.svg"><img src="assets/cards/09-nrs3-de-sitter.svg" alt="09 · nrs3-de-sitter" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-bekenstein"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/10-nrs3-bekenstein.svg"><img src="assets/cards/10-nrs3-bekenstein.svg" alt="10 · nrs3-bekenstein" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/11-nrs3-landauer-carnot.svg"><img src="assets/cards/11-nrs3-landauer-carnot.svg" alt="11 · nrs3-landauer-carnot" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-penrose"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/12-nrs3-penrose.svg"><img src="assets/cards/12-nrs3-penrose.svg" alt="12 · nrs3-penrose" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/13-nrs3-rovelli-lqg.svg"><img src="assets/cards/13-nrs3-rovelli-lqg.svg" alt="13 · nrs3-rovelli-lqg" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/14-nrs3-uncertainty-cone.svg"><img src="assets/cards/14-nrs3-uncertainty-cone.svg" alt="14 · nrs3-uncertainty-cone" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="410"></picture></a>
 
 **Eduardo Nava Hernández**  
 *Formalisation certifiée en Lean 4 · 0 sorry · 52 PRs fusionnées dans Physlib*
@@ -27,6 +33,16 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 [![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00e5ff.svg?style=for-the-badge&logo=three.js)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
+
+---
+
+## 🔒 00 · Substrat & Moteur d'Exécution Propriétaire (Kernel & Hardware Engine)
+
+> **Architecture industrielle & Protection de la propriété intellectuelle :**  
+> Les modules du noyau Linux (`nava_brain`, `nava_zzram`), le pont matériel de basse latence et la dynamique de mémoire invariante d'échelle constituent le **substrat d'exécution propriétaire** de BACQM Systems.
+> 
+> * **Accès ouvert & Vérification formelle :** L'ensemble des fondements mathématiques, les théorèmes en Lean 4 (certifiés 0 sorry) et les modèles satellites sont publiés en accès libre.
+> * **Démonstrations & Évaluations matérielles :** Le moteur physique bare-metal est privé. Les universités, laboratoires et industriels souhaitant une démonstration ou un banc d'essai (benchmark) doivent ouvrir une **Issue GitHub** en décrivant l'architecture cible (CPU, GPU, topologie mémoire) et les spécifications techniques pour étude préalable sous accord de confidentialité (NDA).
 
 ---
 
@@ -205,6 +221,21 @@ L'ensemble des modules compile sous la base axiomatique standard de Lean 4 et Ma
 ```
 
 **0 `sorry`**, aucun axiome ad hoc, vérifié avec le compilateur officiel de Lean 4.
+
+---
+
+## 📚 Références & Bibliographie Canonique
+
+1. **Robertson, H. P.** (1929). *The Uncertainty Principle*. Physical Review, 34(1), 163–164.
+2. **Schrödinger, E.** (1930). *Zum Heisenbergschen Unschärfeprinzip*. Sitzungsberichte der Preussischen Akademie der Wissenschaften, phys.-math. Klasse, 296–303.
+3. **Szegő, G.** (1915/1920). *Beiträge zur Theorie der Toeplitzschen Formen*. Mathematische Zeitschrift, 6(3–4), 167–202.
+4. **Mandelstam, L., & Tamm, I.** (1945). *The uncertainty relation between energy and time in non-relativistic quantum mechanics*. Journal of Physics (USSR), 9(4), 249–254.
+5. **Kogut, J., & Susskind, L.** (1975). *Hamiltonian formulation of Wilson's lattice gauge theories*. Physical Review D, 11(2), 395–408.
+6. **Bekenstein, J. D.** (1981). *Universal upper bound on the entropy-to-energy ratio for bounded systems*. Physical Review D, 23(2), 287–298.
+7. **Diósi, L.** (1987) / **Penrose, R.** (1996). *On gravity's role in quantum state reduction*. General Relativity and Gravitation, 28(5), 581–600.
+8. **Rovelli, C., & Smolin, L.** (1995). *Discreteness of area and volume in quantum gravity*. Nuclear Physics B, 442(3), 593–619.
+9. **Landauer, R.** (1961). *Irreversibility and heat generation in the computing process*. IBM Journal of Research and Development, 5(3), 183–191.
+10. **leanprover-community/physlib** (2026). *52 pull requests merged by naype888-cloud*. [Archive des contributions](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud).
 
 ---
 
