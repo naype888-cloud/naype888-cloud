@@ -41,8 +41,13 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 > **Architecture industrielle & Protection de la propriété intellectuelle :**  
 > Les modules du noyau Linux (`nava_brain`, `nava_zzram`), le pont matériel de basse latence et la dynamique de mémoire invariante d'échelle constituent le **substrat d'exécution propriétaire** de BACQM Systems.
 > 
-> * **Accès ouvert & Vérification formelle :** L'ensemble des fondements mathématiques, les théorèmes en Lean 4 (certifiés 0 sorry) et les modèles satellites sont publiés en accès libre.
-> * **Démonstrations & Évaluations matérielles :** Le moteur physique bare-metal est privé. Les universités, laboratoires et industriels souhaitant une démonstration ou un banc d'essai (benchmark) doivent ouvrir une **Issue GitHub** en décrivant l'architecture cible (CPU, GPU, topologie mémoire) et les spécifications techniques pour étude préalable sous accord de confidentialité (NDA).
+> * **Accès ouvert & Vérification formelle :** L'ensemble des fondements mathématiques, les théorèmes en Lean 4 (certifiés 0 sorry) et les modèles satellites sont publiés en libre accès.
+> * **Pruebas · Demos · Programas Piloto (Acceso al Sustrato) :**  
+>   El código del kernel y el motor de ejecución físico son estrictamente privados. Si representas a una institución, laboratorio o empresa y requieres una prueba de concepto, demostración en vivo o programa piloto en hardware dedicado:  
+>   👉 **Abre un Issue en este repositorio** dejando tu mensaje detallando:  
+>   1. **Especificaciones completas de tu hardware** (modelo exacto de CPU, topología y ancho de banda de memoria, aceleradores/GPU disponibles).  
+>   2. **Entorno operativo y caso de uso específico.**  
+>   *(Revisamos la viabilidad técnica y las especificaciones; si el entorno cumple con los requisitos del sustrato, nos pondremos en contacto para coordinar la evaluación bajo acuerdo de confidencialidad NDA).*
 
 ---
 
