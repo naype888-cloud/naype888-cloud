@@ -60,64 +60,64 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
 ---
 
-### ⟡ Pilier I · Incertitude Élémentaire Dimensionnelle & Limite Universelle de Szegő
-
 <div align="center">
 
-### `C_M(d) = 0` &nbsp;*(d ≤ 3)* &nbsp;·&nbsp; `0 < C_M(d) < π²/3 − 3` &nbsp;*(d ≥ 4)*
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/piliers/plaque_pilier_1_szego.png"><img src="assets/piliers/plaque_pilier_1_szego.png" alt="C_M(d) = 0 (d ≤ 3) · 0 < C_M(d) < π²/3 - 3 (d ≥ 4)" width="840"></picture>
 
 </div>
 
-> **Thèse canonique :** *L'état de courant maximal sature rigoureusement l'inégalité de Robertson–Schrödinger dans l'espace tridimensionnel pur ($d \le 3$), tandis que toute extension temporelle brise irréductiblement la saturation sans jamais diverger.*
+### ⟡ Pilier I · Incertitude Élémentaire Dimensionnelle & Limite Universelle de Szegő
 
-* **Étape 1 (Saturation spatiale)** : En dimension spatiale $d \in \{2, 3\}$, le paquet d'ondes vérifie la borne minimale exacte avec un défaut cinématique nul (`C_M = 0`) — *Physlib #1718*.
-* **Étape 2 (Saut dimensionnel)** : Pour tout $d \ge 4$, la dispersion cinématique excède la capacité géométrique du réseau et engendre un plancher strictement positif — *Physlib #1735*.
-* **Étape 3 (Plafond de Szegő)** : La suite des bornes est strictement monotone et plafonnée universellement par la constante $\pi^2/3 - 3 \approx 0{,}289868$ — *Physlib #1734*.
+> **Thèse canonique :** *L'état de courant maximal sature rigoureusement l'inégalité de Robertson–Schrödinger dans l'espace tridimensionnel pur (d ≤ 3), tandis que toute extension temporelle brise irréductiblement la saturation sans jamais diverger.*
+
+* **Étape 1 (Saturation spatiale)** : En dimension spatiale d ∈ {2, 3}, le paquet d'ondes vérifie la borne minimale exacte avec un défaut cinématique nul (`C_M = 0`) — *Physlib #1718*.
+* **Étape 2 (Saut dimensionnel)** : Pour tout d ≥ 4, la dispersion cinématique excède la capacité géométrique du réseau et engendre un plancher strictement positif — *Physlib #1735*.
+* **Étape 3 (Plafond de Szegő)** : La suite des bornes est strictement monotone et plafonnée universellement par la constante π²/3 − 3 ≈ 0,289868 — *Physlib #1734*.
 
 ---
 
-### ⟡ Pilier II · Le Cadre Constructif à Quatre Sites & le Nombre d'Or
-
 <div align="center">
 
-### `C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0` &nbsp;·&nbsp; `C_M(d) ∈ [C_M(4), π²/3 − 3)`
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/piliers/plaque_pilier_2_foursites.png"><img src="assets/piliers/plaque_pilier_2_foursites.png" alt="C_M(4) = (94 - 42√5)/5 ≈ 0,017029 &gt; 0 · C_M(d) ∈ [C_M(4), π²/3 - 3)" width="840"></picture>
 
 </div>
 
-> **Thèse canonique :** *La dimension $d = 4$ constitue le seuil géométrique fondamental où apparaît le premier quantum d'inertie non nul, universellement borné par la racine du nombre d'or.*
+### ⟡ Pilier II · Le Cadre Constructif à Quatre Sites & le Nombre d'Or
 
-* **Étape 1 (Algèbre à quatre sites)** : Premier ordre discret où la matrice de Gram s'écarte de l'unité, issue de la racine trigonométrique $\cos(\pi/5) = \varphi/2 = (1 + \sqrt{5})/4$.
+> **Thèse canonique :** *La dimension d = 4 constitue le seuil géométrique fondamental où apparaît le premier quantum d'inertie non nul, universellement borné par la racine du nombre d'or.*
+
+* **Étape 1 (Algèbre à quatre sites)** : Premier ordre discret où la matrice de Gram s'écarte de l'unité, issue de la racine trigonométrique cos(π/5) = φ/2 = (1 + √5)/4.
 * **Étape 2 (Plancher spectral uniforme)** : Établissement du plancher minimal inviolable pour toute variété discrète à quatre dimensions — [`FourSites.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/FourSites.lean).
 
 ---
 
-### ⟡ Pilier III · Émergence de la Masse Inertielle Effective
-
 <div align="center">
 
-### `m* = 1 / E''(0) = 1 / (2 t a²)`
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/piliers/plaque_pilier_3_masse.png"><img src="assets/piliers/plaque_pilier_3_masse.png" alt="m* = 1 / E''(0) = 1 / (2 t a²)" width="840"></picture>
 
 </div>
+
+### ⟡ Pilier III · Émergence de la Masse Inertielle Effective
 
 > **Thèse canonique :** *La masse au repos n'est pas un postulat phénoménologique ad hoc, mais la courbure spectrale directe de la bande d'énergie issue de l'opérateur de saut sur le réseau.*
 
-* **Étape 1 (Courbure au fond de bande)** : Dérivation de la relation de dispersion $E(k) = -2t \cos(k a)$ au voisinage du point fondamental $k \to 0$.
-* **Étape 2 (Inertie géométrique)** : La dérivée seconde inverse $1/E''(0)$ engendre la masse inertielle effective couplée au saut $t$ et au pas de réseau $a$ — [`Mass.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/Mass.lean).
+* **Étape 1 (Courbure au fond de bande)** : Dérivation de la relation de dispersion E(k) = −2t cos(k a) au voisinage du point fondamental k → 0.
+* **Étape 2 (Inertie géométrique)** : La dérivée seconde inverse 1/E''(0) engendre la masse inertielle effective couplée au saut t et au pas de réseau a — [`Mass.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/Mass.lean).
 
 ---
 
-### ⟡ Pilier IV · Le Temps Quantique Propre & la Vitesse Limite à Quatre Sites
-
 <div align="center">
 
-### `τ = a / v_max = 1 / (φ |t|)` &nbsp;*(à quatre sites)*
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/piliers/plaque_pilier_4_temps.png"><img src="assets/piliers/plaque_pilier_4_temps.png" alt="τ = a / v_max = 1 / (φ |t|) à quatre sites" width="840"></picture>
 
 </div>
 
+### ⟡ Pilier IV · Le Temps Quantique Propre & la Vitesse Limite à Quatre Sites
+
 > **Thèse canonique :** *Le temps élémentaire compte les pas d'action à la vitesse limite de transfert, liant l'intervalle temporel propre à la pulsation du réseau sans paramètre libre.*
 
-* **Étape 1 (Vitesse limite de transfert)** : La vitesse maximale de saut sur 4 sites est donnée par $v_{\max} = a \varphi |t|$.
-* **Étape 2 (Simplification du pas d'espace)** : L'espacement spatial $a$ s'élimine rigoureusement au ratio pour livrer le pas temporel unifié $\tau = 1/(\varphi |t|)$ — [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
+* **Étape 1 (Vitesse limite de transfert)** : La vitesse maximale de saut sur 4 sites est donnée par v_max = a φ |t|.
+* **Étape 2 (Simplification du pas d'espace)** : L'espacement spatial a s'élimine rigoureusement au ratio pour livrer le pas temporel unifié τ = 1/(φ |t|) — [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
 
 ---
 
