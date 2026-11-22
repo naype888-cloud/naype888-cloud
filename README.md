@@ -38,16 +38,10 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
 ## 🔒 00 · Substrat & Moteur d'Exécution Propriétaire (Kernel & Hardware Engine)
 
-> **Architecture industrielle & Protection de la propriété intellectuelle :**  
-> Les modules du noyau Linux (`nava_brain`, `nava_zzram`), le pont matériel de basse latence et la dynamique de mémoire invariante d'échelle constituent le **substrat d'exécution propriétaire** de BACQM Systems.
-> 
-> * **Accès ouvert & Vérification formelle :** L'ensemble des fondements mathématiques, les théorèmes en Lean 4 (certifiés 0 sorry) et les modèles satellites sont publiés en libre accès.
-> * **Pruebas · Demos · Programas Piloto (Acceso al Sustrato) :**  
->   El código del kernel y el motor de ejecución físico son estrictamente privados. Si representas a una institución, laboratorio o empresa y requieres una prueba de concepto, demostración en vivo o programa piloto en hardware dedicado:  
->   👉 **Abre un Issue en este repositorio** dejando tu mensaje detallando:  
->   1. **Especificaciones completas de tu hardware** (modelo exacto de CPU, topología y ancho de banda de memoria, aceleradores/GPU disponibles).  
->   2. **Entorno operativo y caso de uso específico.**  
->   *(Revisamos la viabilidad técnica y las especificaciones; si el entorno cumple con los requisitos del sustrato, nos pondremos en contacto para coordinar la evaluación bajo acuerdo de confidencialidad NDA).*
+> **Sustrato bare-metal y módulos del kernel Linux :**  
+> Los módulos de baja latencia (`nava_brain`, `nava_zzram`) y el control dinámico de memoria constituyen la propiedad industrial y el motor de ejecución cerrado de BACQM Systems.  
+> Los fundamentos matemáticos y satélites son abiertos. Para especificaciones técnicas, benchmarks y protocolo formal de acceso a hardware, consulta directamente el repositorio maestro:  
+> 👉 [**Accéder aux conditions d'évaluation et banc d'essai dans `naype888-cloud/bacqm-systems`**](https://github.com/naype888-cloud/bacqm-systems#--acc%C3%A8s-au-substrat--pruebas-demos-y-programas-piloto).
 
 ---
 
