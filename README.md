@@ -13,7 +13,7 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/04-ym-perelman-surgery.svg"><img src="assets/cards/04-ym-perelman-surgery.svg" alt="04 · YM-By-Perelmans-surgery-method" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nrs3-tightbinding"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/05-nrs3-tightbinding.svg"><img src="assets/cards/05-nrs3-tightbinding.svg" alt="05 · nrs3-tightbinding" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nrs3-cristales"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/06-nrs3-cristales.svg"><img src="assets/cards/06-nrs3-cristales.svg" alt="06 · nrs3-cristales" width="410"></picture></a>
-<a href="https://github.com/naype888-cloud/Anti-Kurt-Godel-Theorem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/07-anti-kurt-godel.svg"><img src="assets/cards/07-anti-kurt-godel.svg" alt="07 · Anti-Kurt-Godel-Theorem" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-completude"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/07-nrs3-completude.svg"><img src="assets/cards/07-nrs3-completude.svg" alt="07 · nrs3-completude" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nrs3-golab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/08-nrs3-golab.svg"><img src="assets/cards/08-nrs3-golab.svg" alt="08 · nrs3-golab" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nrs3-de-sitter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/09-nrs3-de-sitter.svg"><img src="assets/cards/09-nrs3-de-sitter.svg" alt="09 · nrs3-de-sitter" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nrs3-bekenstein"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/10-nrs3-bekenstein.svg"><img src="assets/cards/10-nrs3-bekenstein.svg" alt="10 · nrs3-bekenstein" width="410"></picture></a>
@@ -36,28 +36,88 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
 ---
 
-## 🔒 00 · Substrat & Moteur d'Exécution Propriétaire (Kernel & Hardware Engine)
+<details>
+<summary><h3>🔒 00 · Substrat &amp; Moteur d'Exécution Propriétaire (Kernel &amp; Hardware Engine) — <i>Cliquer pour déplier le protocole d'accès</i></h3></summary>
+<br>
 
-> **Sustrato bare-metal y módulos del kernel Linux :**  
-> Los módulos de baja latencia (`nava_brain`, `nava_zzram`) y el control dinámico de memoria constituyen la propiedad industrial y el motor de ejecución cerrado de BACQM Systems.  
-> Los fundamentos matemáticos y satélites son abiertos. Para especificaciones técnicas, benchmarks y protocolo formal de acceso a hardware, consulta directamente el repositorio maestro:  
-> 👉 [**Accéder aux conditions d'évaluation et banc d'essai dans `naype888-cloud/bacqm-systems`**](https://github.com/naype888-cloud/bacqm-systems#--acc%C3%A8s-au-substrat--pruebas-demos-y-programas-piloto).
+> **Substrat bare-metal et modules du noyau Linux :**  
+> Les modules de basse latence (`nava_brain`, `nava_zzram`) et la régulation dynamique de mémoire constituent la propriété industrielle et le moteur d'exécution propriétaire de BACQM Systems.  
+> L'ensemble des fondements mathématiques et des modèles satellites sont publiés en libre accès. Pour les spécifications techniques, les bancs d'essai et le protocole d'évaluation matérielle sous accord de confidentialité stricte (NDA) :  
+> 
+> 🔗 👉 [**Accéder au protocole d'évaluation et banc d'essai dans `naype888-cloud/bacqm-systems`**](https://github.com/naype888-cloud/bacqm-systems#--acc%C3%A8s-au-substrat-bare-metal--banc-dessai-d%C3%A9monstrations--programmes-pilotes)
+
+</details>
 
 ---
 
-> ### Le cadre en quatre piliers
->
-> **`C_M(d) = 0` pour d ≤ 3 · `0 < C_M(d) < π²/3 − 3` pour d ≥ 4**  
-> ***Incertitude élémentaire dimensionnelle (Szegő).*** L'état de courant maximal sature Robertson–Schrödinger exactement en d = 2, 3 ; dès d = 4 l'inégalité est stricte, croît avec d et tend vers la limite de Szegő. Forme close, monotonie et limite : Physlib #1718, #1735, #1734.
->
-> **`C_M(4) = (94 − 42√5)/5` · `C_M(d) ∈ [C_M(4), π²/3 − 3)` pour d ≥ 4**  
-> ***Le cadre à quatre sites.*** Premier d non saturé ; à partir de lui la borne est uniforme en d. De `cos(π/5) = (1 + √5)/4` : [`FourSites.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/FourSites.lean).
->
-> **`m* = 1/E''(0) = 1/(2 t a²)`**  
-> ***La masse.*** Courbure de la bande de la chaîne de liaisons fortes au fond de bande : [`Mass.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/Mass.lean).
->
-> **`τ = a / maxCurrent = 1/(φ|t|)` à quatre sites**  
-> ***Le temps.*** Un pas, un espacement à la vitesse limite ; `a` se simplifie et `cos(π/5) = φ/2` : [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
+## 🏛️ Le Cadre Canonique en Quatre Piliers
+
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_physlib_4_piliers.png"><img src="assets/plaque_physlib_4_piliers.png" alt="Les quatre piliers canoniques dans Physlib" width="940"></picture>
+
+</div>
+
+---
+
+### ⟡ Pilier I · Incertitude Élémentaire Dimensionnelle & Limite Universelle de Szegő
+
+<div align="center">
+
+### `C_M(d) = 0` &nbsp;*(d ≤ 3)* &nbsp;·&nbsp; `0 < C_M(d) < π²/3 − 3` &nbsp;*(d ≥ 4)*
+
+</div>
+
+> **Thèse canonique :** *L'état de courant maximal sature rigoureusement l'inégalité de Robertson–Schrödinger dans l'espace tridimensionnel pur ($d \le 3$), tandis que toute extension temporelle brise irréductiblement la saturation sans jamais diverger.*
+
+* **Étape 1 (Saturation spatiale)** : En dimension spatiale $d \in \{2, 3\}$, le paquet d'ondes vérifie la borne minimale exacte avec un défaut cinématique nul (`C_M = 0`) — *Physlib #1718*.
+* **Étape 2 (Saut dimensionnel)** : Pour tout $d \ge 4$, la dispersion cinématique excède la capacité géométrique du réseau et engendre un plancher strictement positif — *Physlib #1735*.
+* **Étape 3 (Plafond de Szegő)** : La suite des bornes est strictement monotone et plafonnée universellement par la constante $\pi^2/3 - 3 \approx 0{,}289868$ — *Physlib #1734*.
+
+---
+
+### ⟡ Pilier II · Le Cadre Constructif à Quatre Sites & le Nombre d'Or
+
+<div align="center">
+
+### `C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0` &nbsp;·&nbsp; `C_M(d) ∈ [C_M(4), π²/3 − 3)`
+
+</div>
+
+> **Thèse canonique :** *La dimension $d = 4$ constitue le seuil géométrique fondamental où apparaît le premier quantum d'inertie non nul, universellement borné par la racine du nombre d'or.*
+
+* **Étape 1 (Algèbre à quatre sites)** : Premier ordre discret où la matrice de Gram s'écarte de l'unité, issue de la racine trigonométrique $\cos(\pi/5) = \varphi/2 = (1 + \sqrt{5})/4$.
+* **Étape 2 (Plancher spectral uniforme)** : Établissement du plancher minimal inviolable pour toute variété discrète à quatre dimensions — [`FourSites.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/FourSites.lean).
+
+---
+
+### ⟡ Pilier III · Émergence de la Masse Inertielle Effective
+
+<div align="center">
+
+### `m* = 1 / E''(0) = 1 / (2 t a²)`
+
+</div>
+
+> **Thèse canonique :** *La masse au repos n'est pas un postulat phénoménologique ad hoc, mais la courbure spectrale directe de la bande d'énergie issue de l'opérateur de saut sur le réseau.*
+
+* **Étape 1 (Courbure au fond de bande)** : Dérivation de la relation de dispersion $E(k) = -2t \cos(k a)$ au voisinage du point fondamental $k \to 0$.
+* **Étape 2 (Inertie géométrique)** : La dérivée seconde inverse $1/E''(0)$ engendre la masse inertielle effective couplée au saut $t$ et au pas de réseau $a$ — [`Mass.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/Mass.lean).
+
+---
+
+### ⟡ Pilier IV · Le Temps Quantique Propre & la Vitesse Limite à Quatre Sites
+
+<div align="center">
+
+### `τ = a / v_max = 1 / (φ |t|)` &nbsp;*(à quatre sites)*
+
+</div>
+
+> **Thèse canonique :** *Le temps élémentaire compte les pas d'action à la vitesse limite de transfert, liant l'intervalle temporel propre à la pulsation du réseau sans paramètre libre.*
+
+* **Étape 1 (Vitesse limite de transfert)** : La vitesse maximale de saut sur 4 sites est donnée par $v_{\max} = a \varphi |t|$.
+* **Étape 2 (Simplification du pas d'espace)** : L'espacement spatial $a$ s'élimine rigoureusement au ratio pour livrer le pas temporel unifié $\tau = 1/(\varphi |t|)$ — [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
 
 ---
 
