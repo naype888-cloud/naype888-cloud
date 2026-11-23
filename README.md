@@ -112,7 +112,7 @@ Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
 
 </div>
 
-### ⟡ Pilier IV · Le Temps Quantique Propre & la Vitesse Limite à Quatre Sites
+### ⟡ Pilier IV · Le Temps Propre Quantique & la Vitesse Limite à Quatre Sites
 
 > **Thèse canonique :** *Le temps élémentaire compte les pas d'action à la vitesse limite de transfert, liant l'intervalle temporel propre à la pulsation du réseau sans paramètre libre.*
 
