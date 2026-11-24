@@ -30,12 +30,12 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 <a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="380"></picture></a>
 
 **Eduardo Nava Hernández**  
-*Formalisation certifiée en Lean 4 · 0 sorry · 52 PRs fusionnées dans Physlib*
+*Formalisation certifiée en Lean 4 · 0 sorry · 53 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
 [![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)](https://github.com/naype888-cloud/lean4-commits)
-[![Physlib](https://img.shields.io/badge/Physlib-52%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud)
+[![Physlib](https://img.shields.io/badge/Physlib-53%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud)
 [![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00b4d8.svg?style=for-the-badge&logo=three.js&labelColor=0d1117&logoColor=white)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
@@ -212,9 +212,9 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 ---
 
-## 🏛️ Les Canons dans Physlib : 52 Pull Requests Fusionnées
+## 🏛️ Les Canons dans Physlib : 53 Pull Requests Fusionnées
 
-Le cadre formel complet est constitué des [**52 contributions (pull requests) fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud). Les canons sont les suivants :
+Le cadre formel complet est constitué des [**53 contributions (pull requests) fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud). Les canons sont les suivants :
 
 <div align="center">
 
@@ -225,7 +225,7 @@ Le cadre formel complet est constitué des [**52 contributions (pull requests) f
 * **NRS³ · Cube 3D & Chaîne Ouverte** ([#1725](https://github.com/leanprover-community/physlib/pull/1725), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987), [#2096](https://github.com/leanprover-community/physlib/pull/2096)) : saturation exacte defectGram(d) = 0 ⇔ d ≤ 3, commutation inter-axes, chaîne ouverte comme saut du graphe chemin (#2096), coordination Δ = 12. C'est la source du tight-binding.
 * **NRS³ · Hopf** ([#1885](https://github.com/leanprover-community/physlib/pull/1885), [#1886](https://github.com/leanprover-community/physlib/pull/1886)) : revêtement SL(2, ℂ) → SO⁺(1,3) et fibration S³ → S² de fibre S¹. C'est la source de la fibration.
 * **Lemme de Schur** ([#1822](https://github.com/leanprover-community/physlib/pull/1822), [#1844](https://github.com/leanprover-community/physlib/pull/1844)) : non-décroissance des formes de covariance sous applications unitales positives.
-* **Spectre et limite de Szegő** ([#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1734](https://github.com/leanprover-community/physlib/pull/1734), [#1735](https://github.com/leanprover-community/physlib/pull/1735), [#1739](https://github.com/leanprover-community/physlib/pull/1739)) : forme fermée C_N² → π²/3 − 2, monotonie de Bernstein d'ordre 12, saturation du ratio de Mandelstam–Tamm à 1/C_N².
+* **Spectre et limite de Szegő** ([#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1734](https://github.com/leanprover-community/physlib/pull/1734), [#1735](https://github.com/leanprover-community/physlib/pull/1735), [#1739](https://github.com/leanprover-community/physlib/pull/1739), [#2122](https://github.com/leanprover-community/physlib/pull/2122)) : forme fermée C_N² → π²/3 − 2, monotonie de Bernstein d'ordre 12, saturation du ratio de Mandelstam–Tamm à 1/C_N².
 * **Algèbre de Clifford** ([#1768](https://github.com/leanprover-community/physlib/pull/1768)) : les matrices de Dirac exigent d ≥ 4.
 
 <div align="center">
@@ -292,7 +292,7 @@ L'ensemble des modules compile sous la base axiomatique standard de Lean 4 et Ma
 7. **Diósi, L.** (1987) / **Penrose, R.** (1996). *On gravity's role in quantum state reduction*. General Relativity and Gravitation, 28(5), 581–600.
 8. **Rovelli, C., & Smolin, L.** (1995). *Discreteness of area and volume in quantum gravity*. Nuclear Physics B, 442(3), 593–619.
 9. **Landauer, R.** (1961). *Irreversibility and heat generation in the computing process*. IBM Journal of Research and Development, 5(3), 183–191.
-10. **leanprover-community/physlib** (2026). *52 pull requests merged by naype888-cloud*. [Archive des contributions](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud).
+10. **leanprover-community/physlib** (2026). *53 pull requests merged by naype888-cloud*. [Archive des contributions](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud).
 
 ---
 
