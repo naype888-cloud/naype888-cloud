@@ -2,9 +2,13 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/titre_incertitude.png"><img src="assets/titre_incertitude.png" alt="De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques" width="860"></picture>
 
-Une seule inégalité sur l'espace de Hilbert des trois axes x, y, z, de dimension d par axe :
-elle sature pour d ≤ 3, devient stricte dès d = 4 et reste bornée par la limite de Szegő.
-Chaque dépôt ci-dessous en établit une conséquence, certifiée en Lean 4.
+"Ce que cela veut dire, concrètement :
+Se déplacer, c'est transporter une position le long d'un axe. À deux ou trois pas, 
+ce transport peut être parfait : rien ne se perd. À partir de quatre pas, il ne peut 
+plus l'être : il reste toujours un petit écart, impossible à effacer, mais jamais 
+infini. Cet écart a un prix en énergie. Ce prix, c'est la masse. 
+
+Tout le reste — le confinement, la gravité, le temps propre — suit de cet écart".
 
 <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="410"></picture></a>
