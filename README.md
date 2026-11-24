@@ -238,7 +238,7 @@ Le cadre formel complet est constitué des [**53 contributions (pull requests) f
 
 ## 🌌 L'Idée Générale : l'Incertitude Dimensionnelle Élémentaire
 
-Le théorème principal est l'**Incertitude Dimensionnelle Élémentaire** (*Elemental Dimensional Uncertainty*, Physlib [#1725](https://github.com/leanprover-community/physlib/pull/1725)). C'est le principe d'incertitude de Heisenberg, démontré par **Howard Percy Robertson et Erwin Schrödinger en 1929–1930**, avec un élément nouveau : il est paramétré par **d**.
+Le théorème principal est l'**Incertitude Dimensionnelle Élémentaire** (Physlib [#1725](https://github.com/leanprover-community/physlib/pull/1725)). C'est le principe d'incertitude de Heisenberg, démontré par **Howard Percy Robertson et Erwin Schrödinger en 1929–1930**, avec un élément nouveau : il est paramétré par **d**.
 
 Ce **d** est à la fois la dimension spatiale des axes x, y, z et la dimension de l'espace de Hilbert. C'est exactement le même d. Il n'existe aucune autre dimension.
 
@@ -283,16 +283,16 @@ L'ensemble des modules compile sous la base axiomatique standard de Lean 4 et Ma
 
 ## 📚 Références & Bibliographie Canonique
 
-1. **Robertson, H. P.** (1929). *The Uncertainty Principle*. Physical Review, 34(1), 163–164.
-2. **Schrödinger, E.** (1930). *Zum Heisenbergschen Unschärfeprinzip*. Sitzungsberichte der Preussischen Akademie der Wissenschaften, phys.-math. Klasse, 296–303.
-3. **Szegő, G.** (1915/1920). *Beiträge zur Theorie der Toeplitzschen Formen*. Mathematische Zeitschrift, 6(3–4), 167–202.
-4. **Mandelstam, L., & Tamm, I.** (1945). *The uncertainty relation between energy and time in non-relativistic quantum mechanics*. Journal of Physics (USSR), 9(4), 249–254.
-5. **Kogut, J., & Susskind, L.** (1975). *Hamiltonian formulation of Wilson's lattice gauge theories*. Physical Review D, 11(2), 395–408.
-6. **Bekenstein, J. D.** (1981). *Universal upper bound on the entropy-to-energy ratio for bounded systems*. Physical Review D, 23(2), 287–298.
-7. **Diósi, L.** (1987) / **Penrose, R.** (1996). *On gravity's role in quantum state reduction*. General Relativity and Gravitation, 28(5), 581–600.
-8. **Rovelli, C., & Smolin, L.** (1995). *Discreteness of area and volume in quantum gravity*. Nuclear Physics B, 442(3), 593–619.
-9. **Landauer, R.** (1961). *Irreversibility and heat generation in the computing process*. IBM Journal of Research and Development, 5(3), 183–191.
-10. **leanprover-community/physlib** (2026). *53 pull requests merged by naype888-cloud*. [Archive des contributions](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud).
+1. **Robertson, H. P.** (1929). *Le principe d'incertitude*. Physical Review, 34(1), 163–164.
+2. **Schrödinger, E.** (1930). *Sur le principe d'incertitude de Heisenberg*. Comptes rendus de l'Académie des sciences de Prusse, classe phys.-math., 296–303.
+3. **Szegő, G.** (1915/1920). *Contributions à la théorie des formes de Toeplitz*. Mathematische Zeitschrift, 6(3–4), 167–202.
+4. **Mandelstam, L., & Tamm, I.** (1945). *La relation d'incertitude entre l'énergie et le temps en mécanique quantique non relativiste*. Journal of Physics (URSS), 9(4), 249–254.
+5. **Kogut, J., & Susskind, L.** (1975). *Formulation hamiltonienne des théories de jauge sur réseau de Wilson*. Physical Review D, 11(2), 395–408.
+6. **Bekenstein, J. D.** (1981). *Borne supérieure universelle sur le rapport entropie-énergie pour les systèmes bornés*. Physical Review D, 23(2), 287–298.
+7. **Diósi, L.** (1987) / **Penrose, R.** (1996). *Sur le rôle de la gravitation dans la réduction de l'état quantique*. General Relativity and Gravitation, 28(5), 581–600.
+8. **Rovelli, C., & Smolin, L.** (1995). *Discrétisation de l'aire et du volume en gravitation quantique*. Nuclear Physics B, 442(3), 593–619.
+9. **Landauer, R.** (1961). *Irréversibilité et génération de chaleur dans le processus de calcul*. IBM Journal of Research and Development, 5(3), 183–191.
+10. **leanprover-community/physlib** (2026). *53 contributions fusionnées par naype888-cloud*. [Archive des contributions](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud).
 
 ---
 
