@@ -37,7 +37,7 @@ dimensionnelle (en mathématiques) — la Loi d'incertitude élémentaire dimens
 dimension de Hilbert d sur la fibre ℝ³ × S¹. Le saut de masse de Yang-Mills s'y ferme comme une conséquence mécanique et vérifiée par le
 noyau de preuve, indépendamment de toute validation institutionnelle du Clay.
 Côté systèmes, je bâtis de bout en bout : modules noyau Linux (nava_brain.ko, interface sysfs, compilation de noyaux GKI), services bas
-niveau en C, Rust et Python, protocole de contexte partagé multi-agents (Heritage R=0) et modules nrs3-* formellement vérifiés.*
+niveau en C, Rust et Python, protocole de contexte partagé multi-agents (Heritage R=0) et modules nrs3-* formellement vérifiés.
 *Formalisation certifiée en Lean 4 · 0 sorry · 53 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
