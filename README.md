@@ -10,6 +10,7 @@ plus l'être : il reste toujours un petit écart, impossible à effacer, mais ja
 infini. Cet écart a un prix en énergie. Ce prix, c'est la masse. 
 
 Tout le reste — le confinement de jauge, la gravité, le temps propre relativiste — suit de cet écart.
+
 <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="410"></picture></a>
 <a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/02-proper-time-general-relativity.svg"><img src="assets/cards/02-proper-time-general-relativity.svg" alt="02 · Proper-Time-General-Relativity" width="410"></picture></a>
