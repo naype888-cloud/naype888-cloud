@@ -14,98 +14,119 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 <table>
   <tr>
     <td valign="top" align="left" width="50%">
-      🔒 <a href="https://github.com/naype888-cloud/bacqm-systems"><b>00 · bacqm-substrate</b></a> · <code>Propriétaire</code><br>
+      🔒 <a href="https://github.com/naype888-cloud/bacqm-systems"><b>00 · bacqm-substrate</b></a> · <i>Propriétaire</i><br>
       Substrat matériel &amp; moteur du noyau Linux : modules de mémoire dynamiques en temps réel.<br>
-      <sub>⚫ C / Asm</sub>
+      <sub>⚫ <code>C / Asm</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><b>01 · nava-robertson-schrodinger</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><b>01 · nava-robertson-schrodinger</b></a> · <i>Public</i><br>
       Le canon : l'incertitude élémentaire dimensionnelle sur le cube ouvert, ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ (Mathlib).<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><b>02 · Proper-Time-General-Relativity</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><b>02 · Proper-Time-General-Relativity</b></a> · <i>Public</i><br>
       Le temps compte les pas : τ = 1/(φ|t|) à quatre sites ; masse effective, équivalence, gravitation d'Einstein.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><b>03 · nrs3-mandelstam-tamm-cramer-rao</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><b>03 · nrs3-mandelstam-tamm-cramer-rao</b></a> · <i>Public</i><br>
       Mandelstam–Tamm et Cramér–Rao : aucun état n'est orthogonal à lui-même avant πħ/(2ΔE).<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><b>04 · YM-By-Perelmans-surgery-method</b></a> · <code>Public</code><br>
-      Yang–Mills sur réseau : loi d'aire uniforme, matrice de transfert, défaut de fibre (0 sorry).<br>
-      <sub>🔵 Lean 4</sub>
+      📘 <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><b>04 · YM-By-Perelmans-surgery-method</b></a> · <i>Public</i><br>
+      Yang–Mills sur réseau : loi d'aire uniforme, matrice de transfert, défaut de fibre (<code>0 sorry</code>).<br>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-tightbinding"><b>05 · nrs3-tightbinding</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-tightbinding"><b>05 · nrs3-tightbinding</b></a> · <i>Public</i><br>
       La chaîne de Physlib, le cube ouvert et la table périodique (H–Og), un cube 3D par élément.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-cristales"><b>06 · nrs3-cristales</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-cristales"><b>06 · nrs3-cristales</b></a> · <i>Public</i><br>
       Cristaux : la symétrie donne la forme de Σ et Ω, le spectre donne la taille (réseaux cristallins).<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-completude"><b>07 · nrs3-completude</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-completude"><b>07 · nrs3-completude</b></a> · <i>Public</i><br>
       Complétude constructive et limites spectrales par Robertson–Fiedler–Niven–Szegő.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-golab"><b>08 · nrs3-golab</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-golab"><b>08 · nrs3-golab</b></a> · <i>Public</i><br>
       Gołąb, les deux extrêmes : π = 3 (hexagone), 4 (carré) ; produit scalaire → π exact ; stabilité en d = 3.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-de-sitter"><b>09 · nrs3-de-sitter</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-de-sitter"><b>09 · nrs3-de-sitter</b></a> · <i>Public</i><br>
       Cosmologie de Sitter : rayon d'horizon L_dS, constante cosmologique positive et courbure.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-bekenstein"><b>10 · nrs3-bekenstein</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-bekenstein"><b>10 · nrs3-bekenstein</b></a> · <i>Public</i><br>
       Thermodynamique des trous noirs : frontière à bits, entropie de Bekenstein–Hawking saturée.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><b>11 · nrs3-landauer-carnot</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><b>11 · nrs3-landauer-carnot</b></a> · <i>Public</i><br>
       Limite de Landauer et cycle de Carnot : coût d'effacement d'un bit et dissipation minimale.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-penrose"><b>12 · nrs3-penrose</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-penrose"><b>12 · nrs3-penrose</b></a> · <i>Public</i><br>
       Effondrement gravitationnel de Diósi–Penrose : temps de décohérence par auto-énergie.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><b>13 · nrs3-rovelli-lqg</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><b>13 · nrs3-rovelli-lqg</b></a> · <i>Public</i><br>
       Gravité quantique à boucles : spectre d'aire discrète, opérateur de surface et saturation de spin.<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><b>14 · nrs3-uncertainty-cone</b></a> · <code>Public</code><br>
+      📘 <a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><b>14 · nrs3-uncertainty-cone</b></a> · <i>Public</i><br>
       Cône de lumière futur et cercle de Minkowski : structure causale sous revêtement SL(2, ℂ).<br>
-      <sub>🔵 Lean 4</sub>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
     <td valign="top" align="left" width="50%">
-      📘 <a href="https://github.com/naype888-cloud/lean4-commits"><b>15 · lean4-commits</b></a> · <code>Public</code><br>
-      52 PRs fusionnées dans leanprover-community/physlib : catalogue de preuves formelles, 0 sorry, ZFC.<br>
-      <sub>🔵 Lean 4</sub>
+      📘 <a href="https://github.com/naype888-cloud/lean4-commits"><b>15 · lean4-commits</b></a> · <i>Public</i><br>
+      52 PRs fusionnées dans leanprover-community/physlib : catalogue de preuves formelles, <code>0 sorry</code>, ZFC.<br>
+      <sub>🔵 <code>Lean 4</code></sub>
     </td>
   </tr>
 </table>
