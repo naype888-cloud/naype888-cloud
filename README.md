@@ -122,19 +122,19 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 > **Thèse canonique :** *Le temps élémentaire compte les pas d'action à la vitesse limite de transfert, liant l'intervalle temporel propre à la pulsation du réseau sans paramètre libre.*
 
 * **Étape 1 (Vitesse limite de transfert)** : La vitesse maximale de saut sur 4 sites est donnée par v_max = a φ |t|.
-* **Étape 2 (Simplification du pas d'espace)** : L'espacement spatial a s'élimine rigoureusement au ratio pour livrer le pas temporel unifié τ = 1/(φ |t|) — [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
+* **Étape 2 (Simplification du pas d'espace)** : L'espacement spatial a s'élimine rigoureusement dans le rapport pour livrer le pas temporel unifié τ = 1/(φ |t|) — [`StepTime.lean`](https://github.com/naype888-cloud/Proper-Time-General-Relativity/blob/main/src/ProperTimeGeneralRelativity/StepTime.lean).
 
 ---
 
 ## ⚡ L'Axiome Maître : le Coût Énergétique du Temps Quantique
 
-Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse inerte propre ne procède ni d'une brisure spontanée ad hoc, ni d'un artifice régulateur phénoménologique. Sur le réseau discret spatial (d ≤ 3), la structure des opérateurs de saut impose une non-commutation canonique le long des arêtes directionnelles. Dès que la dimension atteint d = 4 (adjonction de la fibre temporelle euclidienne), la dispersion cinématique excède la saturation géométrique de Robertson–Schrödinger. Par le principe d'incertitude temps-énergie de Mandelstam–Tamm (ΔE · τ ≥ ħ/2), la propagation continue de tout état quantique le long du paramètre temporel exige un péage spectral strictement positif.
+Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse inerte propre ne procède ni d'une brisure spontanée ad hoc, ni d'un artifice régulateur phénoménologique. Sur le réseau spectral quantique (d ≤ 3), la structure des opérateurs de saut impose une non-commutation canonique le long des arêtes directionnelles. Dès que la dimension atteint d = 4 (adjonction de la fibre temporelle euclidienne), la dispersion cinématique excède la saturation géométrique de Robertson–Schrödinger. Par le principe d'incertitude temps-énergie de Mandelstam–Tamm (ΔE · τ ≥ ħ/2), la propagation continue de tout état quantique le long du paramètre temporel exige un seuil spectral strictement positif.
 
-**Le gap de masse est la manifestation exacte de ce coût énergétique fondamental.**
+**L'écart spectral de masse est la manifestation exacte de ce coût énergétique fondamental.**
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_axiome_fondateur.png"><img src="assets/plaque_axiome_fondateur.png" alt="L'identité maîtresse du gap de masse et du temps quantique" width="940"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_axiome_fondateur.png"><img src="assets/plaque_axiome_fondateur.png" alt="L'identité maîtresse de l'écart spectral de masse et du temps quantique" width="940"></picture>
 
 </div>
 
@@ -158,7 +158,7 @@ Dans toute théorie quantique de jauge non perturbative, l'apparition d'une mass
 
 ## 🛡️ La Triade de Confinement Non Abélien
 
-Le gap unifié total conjugue trois mécanismes de confinement complémentaires. Aucun effondrement spectral n'est possible :
+L'écart spectral unifié total conjugue trois mécanismes de confinement complémentaires. Aucun effondrement spectral n'est possible :
 
 <div align="center">
 
@@ -190,7 +190,7 @@ La décroissance exponentielle du facteur de Wilson donne la tension de corde σ
 
 Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil géométrique irréductible C_M(4). *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
-Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total > 0" width="104"></picture> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule sur la coquille 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
+Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total > 0" width="104"></picture> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule dans l'intervalle 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
 
 ---
 
@@ -221,7 +221,7 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 
 ## 🏛️ Les Canons dans Physlib : 52 Pull Requests Fusionnées
 
-Le framework complet est l'ensemble des [**52 pull requests fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud). Les canons sont les suivants :
+Le cadre formel complet est constitué des [**52 contributions (pull requests) fusionnées dans `leanprover-community/physlib`**](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud). Les canons sont les suivants :
 
 <div align="center">
 
@@ -245,11 +245,11 @@ Le framework complet est l'ensemble des [**52 pull requests fusionnées dans `le
 
 ## 🌌 L'Idée Générale : l'Incertitude Dimensionnelle Élémentaire
 
-Le théorème principal est **Elemental Dimensional Uncertainty** (Physlib [#1725](https://github.com/leanprover-community/physlib/pull/1725)). C'est le principe d'incertitude de Heisenberg, démontré par **Howard Percy Robertson et Erwin Schrödinger en 1929–1930**, avec un élément nouveau : il est paramétré par **d**.
+Le théorème principal est l'**Incertitude Dimensionnelle Élémentaire** (*Elemental Dimensional Uncertainty*, Physlib [#1725](https://github.com/leanprover-community/physlib/pull/1725)). C'est le principe d'incertitude de Heisenberg, démontré par **Howard Percy Robertson et Erwin Schrödinger en 1929–1930**, avec un élément nouveau : il est paramétré par **d**.
 
 Ce **d** est à la fois la dimension spatiale des axes x, y, z et la dimension de l'espace de Hilbert. C'est exactement le même d. Il n'existe aucune autre dimension.
 
-On instancie alors la paire (A, B) sur son conjugué élémentaire, qui définit l'action de se déplacer d'un côté à l'autre d'un cube 3D : aller d'une **position P_d** à une autre **position P_d** exige de se **transporter**, c'est-à-dire l'opérateur **T_d − P_d**. Il provient du hamiltonien de Sturm–Liouville discrétisé sur [−1, 1] en d points équidistants. Chaque axe, X comme Y comme Z, est paramétré par d et vérifie pleinement l'inégalité de 1929–1930 : **X est un axe robertsonien, Y est un axe robertsonien, Z est un axe robertsonien.**
+On instancie alors la paire (A, B) sur son conjugué élémentaire, qui définit l'action de se déplacer d'un côté à l'autre d'un cube 3D : aller d'une **position P_d** à une autre **position P_d** exige de se **transporter**, c'est-à-dire l'opérateur **T_d − P_d**, issu du laplacien spectral de Robertson–Fiedler sur le graphe chemin (hamiltonien de Sturm–Liouville discrétisé sur [−1, 1] en d points équidistants). Chaque axe, X comme Y comme Z, est paramétré par d et vérifie pleinement l'inégalité de 1929–1930 : **X est un axe robertsonien, Y est un axe robertsonien, Z est un axe robertsonien.**
 
 <div align="center">
 
@@ -274,7 +274,7 @@ cd YM-By-Perelmans-surgery-method
 # Vérification formelle du module unificateur maître
 lake env lean src/TotalUnifiedGap.lean
 
-# Compilation intégrale des modules du framework
+# Compilation intégrale des modules du corpus formel
 lake build
 ```
 
