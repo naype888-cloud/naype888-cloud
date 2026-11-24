@@ -12,125 +12,22 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 
 **Tout le reste — le confinement de jauge, la gravité, le temps propre relativiste — suit de cet écart.**
 
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/bacqm-systems"><b>00 · bacqm-substrate</b></a> — <i>Propriétaire</i><br>
-      <sub>Substrat matériel &amp; moteur du noyau Linux : modules de mémoire dynamiques en temps réel.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><b>01 · nava-robertson-schrodinger</b></a><br>
-      <sub>Le canon : l'incertitude élémentaire dimensionnelle sur le cube ouvert, ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ (Mathlib).</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><b>02 · Proper-Time-General-Relativity</b></a><br>
-      <sub>Le temps compte les pas : τ = 1/(φ|t|) à quatre sites ; masse effective, équivalence, gravitation d'Einstein.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/02-proper-time-general-relativity.svg"><img src="assets/cards/02-proper-time-general-relativity.svg" alt="02 · Proper-Time-General-Relativity" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><b>03 · nrs3-mandelstam-tamm-cramer-rao</b></a><br>
-      <sub>Mandelstam–Tamm et Cramér–Rao : aucun état n'est orthogonal à lui-même avant πħ/(2ΔE).</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/03-mandelstam-tamm-cramer-rao.svg"><img src="assets/cards/03-mandelstam-tamm-cramer-rao.svg" alt="03 · nrs3-mandelstam-tamm-cramer-rao" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><b>04 · YM-By-Perelmans-surgery-method</b></a><br>
-      <sub>Yang–Mills sur réseau : loi d'aire uniforme, matrice de transfert, défaut de fibre (<code>0 sorry</code>).</sub><br><br>
-      <a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/04-ym-perelman-surgery.svg"><img src="assets/cards/04-ym-perelman-surgery.svg" alt="04 · YM-By-Perelmans-surgery-method" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-tightbinding"><b>05 · nrs3-tightbinding</b></a><br>
-      <sub>La chaîne de Physlib, le cube ouvert et la table périodique (H–Og), un cube 3D par élément.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-tightbinding"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/05-nrs3-tightbinding.svg"><img src="assets/cards/05-nrs3-tightbinding.svg" alt="05 · nrs3-tightbinding" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-cristales"><b>06 · nrs3-cristales</b></a><br>
-      <sub>Cristaux : la symétrie donne la forme de Σ et Ω, le spectre donne la taille (réseaux cristallins).</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-cristales"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/06-nrs3-cristales.svg"><img src="assets/cards/06-nrs3-cristales.svg" alt="06 · nrs3-cristales" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-completude"><b>07 · nrs3-completude</b></a><br>
-      <sub>Complétude constructive et limites spectrales par Robertson–Fiedler–Niven–Szegő.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-completude"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/07-nrs3-completude.svg"><img src="assets/cards/07-nrs3-completude.svg" alt="07 · nrs3-completude" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-golab"><b>08 · nrs3-golab</b></a><br>
-      <sub>Gołąb, les deux extrêmes : π = 3 (hexagone), 4 (carré) ; produit scalaire → π exact ; stabilité en d = 3.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-golab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/08-nrs3-golab.svg"><img src="assets/cards/08-nrs3-golab.svg" alt="08 · nrs3-golab" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-de-sitter"><b>09 · nrs3-de-sitter</b></a><br>
-      <sub>Cosmologie de Sitter : rayon d'horizon L_dS, constante cosmologique positive et courbure.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-de-sitter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/09-nrs3-de-sitter.svg"><img src="assets/cards/09-nrs3-de-sitter.svg" alt="09 · nrs3-de-sitter" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-bekenstein"><b>10 · nrs3-bekenstein</b></a><br>
-      <sub>Thermodynamique des trous noirs : frontière à bits, entropie de Bekenstein–Hawking saturée.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-bekenstein"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/10-nrs3-bekenstein.svg"><img src="assets/cards/10-nrs3-bekenstein.svg" alt="10 · nrs3-bekenstein" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><b>11 · nrs3-landauer-carnot</b></a><br>
-      <sub>Limite de Landauer et cycle de Carnot : coût d'effacement d'un bit et dissipation minimale.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/11-nrs3-landauer-carnot.svg"><img src="assets/cards/11-nrs3-landauer-carnot.svg" alt="11 · nrs3-landauer-carnot" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-penrose"><b>12 · nrs3-penrose</b></a><br>
-      <sub>Effondrement gravitationnel de Diósi–Penrose : temps de décohérence par auto-énergie.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-penrose"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/12-nrs3-penrose.svg"><img src="assets/cards/12-nrs3-penrose.svg" alt="12 · nrs3-penrose" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><b>13 · nrs3-rovelli-lqg</b></a><br>
-      <sub>Gravité quantique à boucles : spectre d'aire discrète, opérateur de surface et saturation de spin.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/13-nrs3-rovelli-lqg.svg"><img src="assets/cards/13-nrs3-rovelli-lqg.svg" alt="13 · nrs3-rovelli-lqg" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><b>14 · nrs3-uncertainty-cone</b></a><br>
-      <sub>Cône de lumière futur et cercle de Minkowski : structure causale sous revêtement SL(2, ℂ).</sub><br><br>
-      <a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/14-nrs3-uncertainty-cone.svg"><img src="assets/cards/14-nrs3-uncertainty-cone.svg" alt="14 · nrs3-uncertainty-cone" width="410"></picture></a>
-    </td>
-    <td valign="top" align="left" width="50%">
-      <a href="https://github.com/naype888-cloud/lean4-commits"><b>15 · lean4-commits</b></a><br>
-      <sub>52 PRs fusionnées dans leanprover-community/physlib : catalogue de preuves formelles, <code>0 sorry</code>, ZFC.</sub><br><br>
-      <a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="410"></picture></a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/Proper-Time-General-Relativity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/02-proper-time-general-relativity.svg"><img src="assets/cards/02-proper-time-general-relativity.svg" alt="02 · Proper-Time-General-Relativity" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/03-mandelstam-tamm-cramer-rao.svg"><img src="assets/cards/03-mandelstam-tamm-cramer-rao.svg" alt="03 · nrs3-mandelstam-tamm-cramer-rao" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/04-ym-perelman-surgery.svg"><img src="assets/cards/04-ym-perelman-surgery.svg" alt="04 · YM-By-Perelmans-surgery-method" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-tightbinding"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/05-nrs3-tightbinding.svg"><img src="assets/cards/05-nrs3-tightbinding.svg" alt="05 · nrs3-tightbinding" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-cristales"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/06-nrs3-cristales.svg"><img src="assets/cards/06-nrs3-cristales.svg" alt="06 · nrs3-cristales" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-completude"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/07-nrs3-completude.svg"><img src="assets/cards/07-nrs3-completude.svg" alt="07 · nrs3-completude" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-golab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/08-nrs3-golab.svg"><img src="assets/cards/08-nrs3-golab.svg" alt="08 · nrs3-golab" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-de-sitter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/09-nrs3-de-sitter.svg"><img src="assets/cards/09-nrs3-de-sitter.svg" alt="09 · nrs3-de-sitter" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-bekenstein"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/10-nrs3-bekenstein.svg"><img src="assets/cards/10-nrs3-bekenstein.svg" alt="10 · nrs3-bekenstein" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-landauer-carnot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/11-nrs3-landauer-carnot.svg"><img src="assets/cards/11-nrs3-landauer-carnot.svg" alt="11 · nrs3-landauer-carnot" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-penrose"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/12-nrs3-penrose.svg"><img src="assets/cards/12-nrs3-penrose.svg" alt="12 · nrs3-penrose" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-rovelli-lqg"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/13-nrs3-rovelli-lqg.svg"><img src="assets/cards/13-nrs3-rovelli-lqg.svg" alt="13 · nrs3-rovelli-lqg" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/14-nrs3-uncertainty-cone.svg"><img src="assets/cards/14-nrs3-uncertainty-cone.svg" alt="14 · nrs3-uncertainty-cone" width="410"></picture></a>
+<a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="410"></picture></a>
 
 **Eduardo Nava Hernández**  
 *Formalisation certifiée en Lean 4 · 0 sorry · 52 PRs fusionnées dans Physlib*
