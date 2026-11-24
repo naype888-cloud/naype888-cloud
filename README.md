@@ -31,6 +31,7 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 <a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="380"></picture></a>
 
 **Eduardo Nava Hernández**  
+
 *Je formalise la physique mathématique en Lean 4 et je conçois des architectures systèmes de la couche noyau jusqu'à l'espace utilisateur.
 Avec plus de cinquante pull requests fusionnées dans Physlib, mon travail dans le cadre NRS³ établit le Théorème d'incertitude élémentaire
 dimensionnelle (en mathématiques) — la Loi d'incertitude élémentaire dimensionnelle (en physique) — via l'inégalité de type Szegő en
