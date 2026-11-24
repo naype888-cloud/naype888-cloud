@@ -1,7 +1,8 @@
+<div lang="fr">
+
 <div align="center">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/titre_incertitude.png"><img src="assets/titre_incertitude.png" alt="De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques" width="860"></picture>
-**"De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"**
 
 Ce que cela veut dire, concrètement :
 Se déplacer, c'est transporter une position le long d'un axe. À deux ou trois pas, 
@@ -146,14 +147,14 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
 [![Kernel Status](https://img.shields.io/badge/Kernel-0%20sorry%20%7C%20ZFC-brightgreen.svg?style=flat-square)](https://github.com/naype888-cloud/lean4-commits)
 [![Physlib](https://img.shields.io/badge/Physlib-52%20PRs%20Fusionn%C3%A9es-brightgreen.svg?style=flat-square)](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud)
-[![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00e5ff.svg?style=for-the-badge&logo=three.js)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
+[![Portail 3D](https://img.shields.io/badge/Simulateur_3D-Preuves_%26_Physique-00b4d8.svg?style=for-the-badge&logo=three.js&labelColor=0d1117&logoColor=white)](https://naype888-cloud.github.io/YM-By-Perelmans-surgery-method/)
 
 </div>
 
 ---
 
 <details>
-<summary><h3>🔒 00 · Substrat &amp; Moteur d'Exécution Propriétaire (Kernel &amp; Hardware Engine) — <i>Cliquer pour déplier le protocole d'accès</i></h3></summary>
+<summary><b><font size="+1">🔒 00 · Substrat &amp; Moteur d'Exécution Propriétaire (Kernel &amp; Hardware Engine) — <i>Cliquer pour déplier le protocole d'accès</i></font></b></summary>
 <br>
 
 > **Substrat bare-metal et modules du noyau Linux :**  
@@ -167,14 +168,6 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 ---
 
 ## 🏛️ Le Cadre Canonique en Quatre Piliers
-
-<div align="center">
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_physlib_4_piliers.png"><img src="assets/plaque_physlib_4_piliers.png" alt="Les quatre piliers canoniques dans Physlib" width="940"></picture>
-
-</div>
-
----
 
 <div align="center">
 
@@ -301,7 +294,7 @@ La décroissance exponentielle du facteur de Wilson donne la tension de corde σ
 
 Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil géométrique irréductible C_M(4). *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
 
-Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total > 0" width="104"></picture> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule dans l'intervalle 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
+Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_pos.png"><img src="assets/triade/c_total_pos.png" alt="Δ_total > 0" width="104" align="middle"></picture> sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule dans l'intervalle 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
 
 ---
 
@@ -312,8 +305,8 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 | `TotalUnifiedGap.YM_mass_gap_wightman` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_wightman_2l.png"><img src="assets/triade/c_wightman_2l.png" alt="∃ Δ > 0, E({p ∈ V̄₊ : 0 < p₀ < Δ}) = 0" width="264"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.total_unified_gap_master_bridge` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_master_bridge.png"><img src="assets/triade/c_master_bridge.png" alt="HasSpectralMassGap(E, Δ_total)" width="261"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.totalUnifiedGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_total_min_2l.png"><img src="assets/triade/c_total_min_2l.png" alt="Δ_total = min((1) Δ_KS, min((2) Δ_glue, (3) floor)) > 0" width="282"></picture> | TotalUnifiedGap |
-| `TotalUnifiedGap.gravitationalCoupling_canonical` | α_G = Gm²/ħc = Λ²_YM · C_M(4)/M_P² ≈ 10⁻³⁸ | TotalUnifiedGap |
-| `TotalUnifiedGap.newton_force_of_defect_masses` | F_G = G·M₁·M₂/r² en champ faible | TotalUnifiedGap |
+| `TotalUnifiedGap.gravitationalCoupling_canonical` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_gravitational.png"><img src="assets/triade/c_gravitational.png" alt="α_G ≡ Gm²/ħc = Λ²_YM · C_M(4)/M_P² ≈ 10⁻³⁸" width="293"></picture> | TotalUnifiedGap |
+| `TotalUnifiedGap.newton_force_of_defect_masses` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_newton.png"><img src="assets/triade/c_newton.png" alt="F_G = G·M₁·M₂/r² (champ faible)" width="265"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.kogutSusskindGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_ks.png"><img src="assets/triade/c_ks.png" alt="(1) λ_E − 2N·∣Plq∣·λ_B > 0" width="212"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.glueballGap_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_glue.png"><img src="assets/triade/c_glue.png" alt="(2) Δ_glue = σ·R > 0" width="184"></picture> | TotalUnifiedGap |
 | `TotalUnifiedGap.stringTension_pos` | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/c_sigma_2l.png"><img src="assets/triade/c_sigma_2l.png" alt="σ(t, t′) = ln(t′/t) > 0 (0 < t < t′)" width="183"></picture> | TotalUnifiedGap |
@@ -419,5 +412,7 @@ L'ensemble des modules compile sous la base axiomatique standard de Lean 4 et Ma
 ### 🌌 *« Du saut discret sur l'arête cubique à la courbure de l'espace-temps de Planck : l'Univers ne fait aucun saut en dehors de l'incertitude quantique. »*
 
 **Eduardo Nava Hernández** · naype888@gmail.com · [naype888-cloud](https://github.com/naype888-cloud)
+
+</div>
 
 </div>

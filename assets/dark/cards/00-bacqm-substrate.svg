@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="496" height="148" viewBox="0 0 496 148" role="img" aria-label="00 · bacqm-substrate">
-<rect x="8.5" y="8.5" width="479" height="131" rx="8" fill="none" stroke="#30363D" stroke-width="1.5"/>
+<rect x="8.5" y="8.5" width="479" height="131" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
 <path transform="translate(24.5,24.5)" fill="#9198A1" d="M4 4a4 4 0 0 1 8 0v2h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h1V4Zm2 2h4V4a2 2 0 1 0-4 0v2Zm-3 4v4h10v-4H3Z"/>
 <text x="48.5" y="37.5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#4493F8">00 · bacqm-substrate</text>
 <rect x="222.5" y="22.5" width="94" height="20" rx="10" fill="none" stroke="#BB8009"/>
