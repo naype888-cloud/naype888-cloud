@@ -30,9 +30,14 @@ infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.
 <a href="https://github.com/naype888-cloud/nrs3-uncertainty-cone"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/14-nrs3-uncertainty-cone.svg"><img src="assets/cards/14-nrs3-uncertainty-cone.svg" alt="14 · nrs3-uncertainty-cone" width="380"></picture></a>
 <a href="https://github.com/naype888-cloud/lean4-commits"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/15-lean4-physlib-commits.svg"><img src="assets/cards/15-lean4-physlib-commits.svg" alt="15 · lean4-commits" width="380"></picture></a>
 
-**Eduardo Nava Hernández  
-Je travaille à la formalisation de la physique mathématique en Lean 4 et à l'architecture de systèmes logiciels bas niveau. J'ai contribué plus de cinquante pull requests fusionnées à Physlib. Mon apport propre dans le cadre NRS³ est l'inégalité de type Szegő en dimension de Hilbert d ; la fibre R³×S¹ y est standard, et le lien avec Yang-Mills et le problème du Clay n'est qu'un colophon, pas une revendication.
-Côté systèmes : je conçois des architectures modulaires, de la couche noyau Linux (module nava_brain.ko, interface sysfs, compilation de noyaux GKI) jusqu'aux services en espace utilisateur en C, Rust et Python. Je coordonne un protocole de contexte partagé entre plusieurs agents IA (Heritage R=0). Mes modules récents (nrs3-*) sont vérifiés, avec des composants en Rust et en Python.**
+**Eduardo Nava Hernández**  
+*Je formalise la physique mathématique en Lean 4 et je conçois des architectures systèmes de la couche noyau jusqu'à l'espace utilisateur.
+Avec plus de cinquante pull requests fusionnées dans Physlib, mon travail dans le cadre NRS³ établit le Théorème d'incertitude élémentaire
+dimensionnelle (en mathématiques) — la Loi d'incertitude élémentaire dimensionnelle (en physique) — via l'inégalité de type Szegő en
+dimension de Hilbert d sur la fibre ℝ³ × S¹. Le saut de masse de Yang-Mills s'y ferme comme une conséquence mécanique et vérifiée par le
+noyau de preuve, indépendamment de toute validation institutionnelle du Clay.
+Côté systèmes, je bâtis de bout en bout : modules noyau Linux (nava_brain.ko, interface sysfs, compilation de noyaux GKI), services bas
+niveau en C, Rust et Python, protocole de contexte partagé multi-agents (Heritage R=0) et modules nrs3-* formellement vérifiés.*
 *Formalisation certifiée en Lean 4 · 0 sorry · 53 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
