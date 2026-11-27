@@ -2,13 +2,14 @@
 
 <div align="center">
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/titre_incertitude.png"><img src="assets/titre_incertitude.png" alt="De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques" width="860"></picture>
+
 **"De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"**
 
-Ce que cela veut dire, concrètement :
+*Ce que cela veut dire, concrètement :
 Se déplacer, c'est transporter une position le long d'un axe. À deux ou trois pas, 
 ce transport peut être parfait : rien ne se perd. À partir de quatre pas, il ne peut 
 plus l'être : il reste toujours un petit écart, impossible à effacer, mais jamais 
-infini. Cet écart a un prix en énergie. Ce prix, c'est la masse. 
+infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.* 
 
 **Tout le reste — le confinement de jauge, la gravité, le temps propre relativiste — suit de cet écart.**
 
