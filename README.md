@@ -38,7 +38,7 @@ dimensionnelle (en mathématiques) — la Loi d'incertitude élémentaire dimens
 dimension de Hilbert d sur la fibre ℝ³ × S¹. Le saut de masse de Yang-Mills s'y ferme comme une conséquence mécanique et vérifiée par le
 noyau de preuve, indépendamment de toute validation institutionnelle du Clay.
 Côté systèmes, je bâtis de bout en bout : modules noyau Linux (nava_brain.ko, interface sysfs, compilation de noyaux GKI), services bas
-niveau en C, Rust et Python, protocole de contexte partagé multi-agents (Heritage R=0) et modules nrs3-* formellement vérifiés.
+niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>Heritage R=0</code>) et modules nrs3-* formellement vérifiés.
 *Formalisation certifiée en Lean 4 · 0 sorry · 53 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
@@ -130,7 +130,7 @@ niveau en C, Rust et Python, protocole de contexte partagé multi-agents (Herita
 
 ## ⚡ L'Axiome Maître : le Coût Énergétique du Temps Quantique
 
-Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse inerte propre ne procède ni d'une brisure spontanée ad hoc, ni d'un artifice régulateur phénoménologique. Sur le réseau spectral quantique (d ≤ 3), la structure des opérateurs de saut impose une non-commutation canonique le long des arêtes directionnelles. Dès que la dimension atteint d = 4 (adjonction de la fibre temporelle euclidienne), la dispersion cinématique excède la saturation géométrique de Robertson–Schrödinger. Par le principe d'incertitude temps-énergie de Mandelstam–Tamm (ΔE · τ ≥ ħ/2), la propagation continue de tout état quantique le long du paramètre temporel exige un seuil spectral strictement positif.
+Dans toute théorie quantique de jauge non perturbative, l'apparition d'une masse inerte propre ne procède ni d'une brisure spontanée ad hoc, ni d'un artifice régulateur phénoménologique. Sur le réseau spectral quantique (<code>d ≤ 3</code>), la structure des opérateurs de saut impose une non-commutation canonique le long des arêtes directionnelles. Dès que la dimension atteint d = 4 (adjonction de la fibre temporelle euclidienne), la dispersion cinématique excède la saturation géométrique de Robertson–Schrödinger. Par le principe d'incertitude temps-énergie de Mandelstam–Tamm (ΔE · τ ≥ ħ/2), la propagation continue de tout état quantique le long du paramètre temporel exige un seuil spectral strictement positif.
 
 **L'écart spectral de masse est la manifestation exacte de ce coût énergétique fondamental.**
 
@@ -144,9 +144,9 @@ Dans toute théorie quantique de jauge non perturbative, l'apparition d'une mass
 
 ## 📐 La Constante Canonique de Szegő et la Bifurcation de Masse
 
-**Régime luminal saturé (d ≤ 3).** Dans l'espace tridimensionnel pur, le paquet d'ondes sature exactement l'inégalité de Robertson–Schrödinger : C_N(2)² = C_N(3)² = 1, donc C_M = 0. Absence totale d'inertie propre : les bosons de jauge libres et les fermions chiraux se propagent à la vitesse de la lumière.
+**Régime luminal saturé (<code>d ≤ 3</code>).** Dans l'espace tridimensionnel pur, le paquet d'ondes sature exactement l'inégalité de Robertson–Schrödinger : C_N(2)² = C_N(3)² = 1, donc C_M = 0. Absence totale d'inertie propre : les bosons de jauge libres et les fermions chiraux se propagent à la vitesse de la lumière.
 
-**Régime massif non saturé (d ≥ 4).** L'espace discret passe à 2⁴ = 16 orthants. La dispersion excède la capacité géométrique de la boîte et produit un quantum irréductible, certifié dans `TotalUnifiedGap.massSq4_pos` :
+**Régime massif non saturé (<code>d ≥ 4</code>).** L'espace discret passe à 2⁴ = 16 orthants. La dispersion excède la capacité géométrique de la boîte et produit un quantum irréductible, certifié dans `TotalUnifiedGap.massSq4_pos` :
 
 **C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0**, strictement borné par la limite universelle de Szegő **π²/3 − 3 ≈ 0,289868** (`TotalUnifiedGap.massSq4_lt_szego`). Aucune divergence ultraviolette n'est possible.
 
@@ -164,13 +164,13 @@ L'écart spectral unifié total conjugue trois mécanismes de confinement compl�
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_gap_unifie_total.png"><img src="assets/plaque_gap_unifie_total.png" alt="Δ_total = min(Δ_KS, min(Δ_glue, floor_Dirac)) > 0" width="960"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/plaque_gap_unifie_total.png"><img src="assets/plaque_gap_unifie_total.png" alt="Δ_total = min(Δ_KS, min(Δ_glue, floor_Dirac)) &gt; 0" width="960"></picture>
 
 </div>
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_1_kogut_susskind.png"><img src="assets/triade/triade_1_kogut_susskind.png" alt="(1) Hamiltonien de Kogut–Susskind en couplage fort : Δ_KS = λ_E − 2N·|Plq|·λ_B > 0" width="900"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_1_kogut_susskind.png"><img src="assets/triade/triade_1_kogut_susskind.png" alt="(1) Hamiltonien de Kogut–Susskind en couplage fort : Δ_KS = λ_E − 2N·|Plq|·λ_B &gt; 0" width="900"></picture>
 
 </div>
 
@@ -178,7 +178,7 @@ L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous 
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_2_wilson_glueballs.png"><img src="assets/triade/triade_2_wilson_glueballs.png" alt="(2) Loi d'aire de Wilson et masse des glueballs : Δ_glue = σ·R > 0" width="900"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_2_wilson_glueballs.png"><img src="assets/triade/triade_2_wilson_glueballs.png" alt="(2) Loi d'aire de Wilson et masse des glueballs : Δ_glue = σ·R &gt; 0" width="900"></picture>
 
 </div>
 
@@ -186,7 +186,7 @@ La décroissance exponentielle du facteur de Wilson donne la tension de corde σ
 
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_3_dirac_transverse.png"><img src="assets/triade/triade_3_dirac_transverse.png" alt="(3) Plancher de Dirac transverse sur la fibre S¹ : floor_Dirac = √min(1/4, C_M(4)/L²) > 0" width="900"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/triade/triade_3_dirac_transverse.png"><img src="assets/triade/triade_3_dirac_transverse.png" alt="(3) Plancher de Dirac transverse sur la fibre S¹ : floor_Dirac = √min(1/4, C_M(4)/L²) &gt; 0" width="900"></picture>
 
 </div>
 
@@ -211,12 +211,12 @@ Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com
 | `TotalUnifiedGap.transverseFloor_pos` | (3) √min(1/4, C_M(4)/L²) > 0 (∀ L > 0) | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_pos` | C_M(4) = (94 − 42√5)/5 ≈ 0,017029 > 0 | TotalUnifiedGap |
 | `TotalUnifiedGap.massSq4_lt_szego` | C_M(4) < π²/3 − 3 ≈ 0,289868 | TotalUnifiedGap |
-| `CondensedMatter.TightBindingChain.centeredGramDefect_alongX_eq_zero_iff` | défaut de Gram centré sur l'axe x = 0 ⇔ N = 2 ∨ N = 3 (N ≥ 2) ; idem y, z | Physlib #1725 |
-| `CondensedMatter.TightBindingChain.bracket_cubePairs_eq_zero_iff` | p ≠ q : [O_p, O_q] = 0 ⇔ p et q sur des axes différents | Physlib #1986 |
-| `CondensedMatter.TightBindingChain.tendsto_uncertaintyRatio` | N → ∞ : C_N → √(π²/3 − 2) ≈ 1,1357 | Physlib #1734 (nom : #1792) |
-| `CondensedMatter.TightBindingChain.uncertaintyRatio_lt_uncertaintyRatio` | 4 ≤ N < N′ ⇒ C_N < C_N′ | Physlib #1735 (nom : #1792) |
-| `CondensedMatter.TightBindingChain.mandelstamTammRatio_maxCurrentState` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C_N² dans l'état de courant maximal | Physlib #1739 |
-| `PhyslibAlpha.ProbabilisticTheory.AlgState.covarianceForm_map_le` | Φ(X)⋆Φ(X) ≤ Φ(X⋆X) ⇒ C_ω(ΦX, ΦX) ≤ C_ω′(X, X) | Physlib #1844 |
+| `TightBindingChain.centeredGramDefect_alongX_eq_zero_iff` | défaut de Gram centré sur l'axe x = 0 ⇔ N = 2 ∨ N = 3 (N ≥ 2) ; idem y, z | Physlib #1725 |
+| `TightBindingChain.bracket_cubePairs_eq_zero_iff` | p ≠ q : [O_p, O_q] = 0 ⇔ p et q sur des axes différents | Physlib #1986 |
+| `TightBindingChain.tendsto_uncertaintyRatio` | N → ∞ : C_N → √(π²/3 − 2) ≈ 1,1357 | Physlib #1734 (nom : #1792) |
+| `TightBindingChain.uncertaintyRatio_lt_uncertaintyRatio` | 4 ≤ N < N′ ⇒ C_N < C_N′ | Physlib #1735 (nom : #1792) |
+| `TightBindingChain.mandelstamTammRatio_maxCurrentState` | ⟨J⟩² / (4·Var(H)·Var(X)) = 1/C_N² dans l'état de courant maximal | Physlib #1739 |
+| `AlgState.covarianceForm_map_le` | Φ(X)⋆Φ(X) ≤ Φ(X⋆X) ⇒ C_ω(ΦX, ΦX) ≤ C_ω′(X, X) | Physlib #1844 |
 | `Fermion.Dirac.isLeast_size_isCliffordFamily` | {γ^μ, γ^ν} = 2η^{μν} : la plus petite taille n des matrices est 4 | Physlib #1768 |
 
 ---
