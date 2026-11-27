@@ -5,12 +5,16 @@
 
 **"De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"**
 
+</div>
+
 **Trois axes spatiaux (`x`, `y`, `z`) et une seule variable `d` — arbitrairement grande, la même pour les positions le long de chaque axe et pour l'espace de Hilbert ℂᵈ.**
 
 Avant toute physique, le socle construit dans `Mathlib` est de l'algèbre pure d'opérateurs hermitiens qui ne commutent pas : tout ce que l'on mesure ou calcule est fini (`d` états de position `P_d` par axe), et la paire transport–position `(T_d, P_d)` partage la même dimension `d` sur chacun des trois axes de ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ.
 
-* **Le verrou asymptotique de Szegő (Lean 4, `0 sorry`) :** la géométrie fibrée ℝ³ × S¹ était déjà connue pour soutenir le continu, mais il restait à prouver que les paquets gaussiens ne saturent plus dès `d ≥ 4`, quelle que soit la résolution `d → ∞`. Sous cette unique variable `d`, la saturation exacte n'a lieu qu'en `d ∈ {2, 3}` ; pour **tout `d ≥ 4` jusqu'à l'infini**, le défaut reste enfermé entre `C_M(4) = (94 − 42√5)/5 > 0` et `π²/3 − 3` — **il ne retombe jamais à zéro et ne diverge jamais quand la boîte grandit.**
-* **Un temps propre relativiste local et ses conséquences :** le pas spatial `a` s'élimine dans le rapport à la vitesse limite ; le temps compte les pas propres de chaque système (`n · τ_pas = 0 ⟺ n = 0` — quand un système cesse d'avancer, *son* temps propre s'arrête tandis que ceux qui disposent encore de pas continuent). De ce même socle découlent le saut de masse de jauge, la taille minimale des matrices de Dirac (`d ≥ 4`), les bits de Bekenstein–Hawking sur la frontière, l'entropie de de Sitter et la stabilité orbitale en `d = 3` axes spatiaux (`d + 1 = 4`, Gołąb–Ehrenfest).
+* **Le verrou asymptotique de Szegő (Lean 4, `0 sorry`) :** la géométrie fibrée ℝ³ × S¹ était déjà connue pour soutenir le continu, mais il restait à prouver que les paquets gaussiens ne saturent plus dès `d ≥ 4`, quelle que soit la résolution `d → ∞`. Sous cette unique variable `d`, la saturation exacte n'a lieu qu'en `d ∈ {2, 3}` ; pour **tout `d ≥ 4` jusqu'à l'infini**, le défaut reste enfermé entre C_M(4) = (94 − 42√5)/5 > 0 et π²/3 − 3 — **il ne retombe jamais à zéro et ne diverge jamais quand la boîte grandit.**
+* **Un temps propre relativiste local et ses conséquences :** le pas spatial `a` s'élimine dans le rapport à la vitesse limite ; le temps compte les pas propres de chaque système (`n · τ_pas = 0 ⟺ n = 0` — quand un système cesse d'avancer, *son* temps propre s'arrête tandis que ceux qui disposent encore de pas continuent). De ce même socle découlent l'écart spectral de masse de jauge, la taille minimale des matrices de Dirac (`d ≥ 4`), les bits de Bekenstein–Hawking sur la frontière, l'entropie de de Sitter et la stabilité orbitale en `d = 3` axes spatiaux (`d + 1 = 4`, Gołąb–Ehrenfest).
+
+<div align="center">
 
 <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="380"></picture></a>
 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="380"></picture></a><br>
@@ -34,11 +38,11 @@ Avant toute physique, le socle construit dans `Mathlib` est de l'algèbre pure d
 *Je formalise la physique mathématique en Lean 4 et je conçois des architectures systèmes de la couche noyau jusqu'à l'espace utilisateur.
 Avec plus de cinquante pull requests fusionnées dans Physlib, mon travail dans le cadre NRS³ établit le Théorème d'incertitude élémentaire
 dimensionnelle (en mathématiques) — la Loi d'incertitude élémentaire dimensionnelle (en physique) — via l'inégalité de type Szegő en
-dimension de Hilbert d sur la fibre ℝ³ × S¹. Le saut de masse de Yang-Mills s'y ferme comme une conséquence mécanique et vérifiée par le
+dimension de Hilbert d sur la fibre ℝ³ × S¹. L'écart spectral de masse de Yang–Mills s'y ferme comme une conséquence mécanique et vérifiée par le
 noyau de preuve, indépendamment de toute validation institutionnelle du Clay.
 Côté systèmes, je bâtis de bout en bout : modules noyau Linux (nava_brain.ko, interface sysfs, compilation de noyaux GKI), services bas
-niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>Heritage R=0</code>) et modules nrs3-* formellement vérifiés.
-*Formalisation certifiée en Lean 4 · 0 sorry · 53 PRs fusionnées dans Physlib*
+niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>Heritage R=0</code>) et modules `nrs3-*` formellement vérifiés.*
+*Formalisation certifiée en Lean 4 · `0 sorry` · 53 PRs fusionnées dans Physlib*
 
 [![Lean 4](https://img.shields.io/badge/Lean_4-v4.35%20%2F%20v4.36-blue.svg?style=flat-square)](https://leanprover.github.io/)
 [![Mathlib](https://img.shields.io/badge/Mathlib-v%C3%A9rifi%C3%A9-2ea44f.svg?style=flat-square)](https://github.com/leanprover-community/mathlib4)
@@ -58,7 +62,7 @@ niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>
 > Les modules de basse latence (`nava_brain`, `nava_zzram`) et la régulation dynamique de mémoire constituent la propriété industrielle et le moteur d'exécution propriétaire de BACQM Systems.  
 > L'ensemble des fondements mathématiques et des modèles satellites sont publiés en libre accès. Pour les spécifications techniques, les bancs d'essai et le protocole d'évaluation matérielle sous accord de confidentialité stricte (NDA) :  
 > 
-> 🔗 👉 [**Accéder au protocole d'évaluation et banc d'essai dans `naype888-cloud/bacqm-systems`**](https://github.com/naype888-cloud/bacqm-systems#--acc%C3%A8s-au-substrat-bare-metal--banc-dessai-d%C3%A9monstrations--programmes-pilotes)
+> 🔗 👉 [**Accéder au protocole d'évaluation et banc d'essai dans `naype888-cloud/bacqm-systems`**](https://github.com/naype888-cloud/bacqm-systems#-acc%C3%A8s-au-substrat-bare-metal--banc-dessai-d%C3%A9monstrations--programmes-pilotes)
 
 </details>
 
@@ -173,7 +177,7 @@ L'écart spectral unifié total conjugue trois mécanismes de confinement compl�
 
 </div>
 
-L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous le seuil électrique. *([`TotalUnifiedGap.kogutSusskindGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
+L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous le seuil électrique. *([`TotalUnifiedGap.kogutSusskindGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié `0 sorry`)*
 
 <div align="center">
 
@@ -181,7 +185,7 @@ L'invariance de jauge exacte [H_KS, Gauss_x] = 0 interdit toute excitation sous 
 
 </div>
 
-La décroissance exponentielle du facteur de Wilson donne la tension de corde σ(t, t′) = ln(t′/t) > 0 et le plancher massif. *([`TotalUnifiedGap.glueballGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
+La décroissance exponentielle du facteur de Wilson donne la tension de corde σ(t, t′) = ln(t′/t) > 0 et le plancher massif. *([`TotalUnifiedGap.glueballGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié `0 sorry`)*
 
 <div align="center">
 
@@ -189,13 +193,13 @@ La décroissance exponentielle du facteur de Wilson donne la tension de corde σ
 
 </div>
 
-Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil géométrique irréductible C_M(4). *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié 0 sorry)*
+Pour tout rayon L > 0, l'opérateur de Dirac hérite du seuil géométrique irréductible C_M(4). *([`TotalUnifiedGap.transverseFloor_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) — Certifié `0 sorry`)*
 
-Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit Δ_total > 0 sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule dans l'intervalle 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **0 sorry**.
+Le théorème central [`TotalUnifiedGap.totalUnifiedGap_pos`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean) établit Δ_total > 0 sans condition. Dans la limite de décompactification L → ∞ sur ℝ⁴, la mesure spectrale s'annule dans l'intervalle 0 < p₀ < Δ_total : c'est [`TotalUnifiedGap.YM_mass_gap_wightman`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method/blob/main/src/TotalUnifiedGap.lean), certifié **`0 sorry`**.
 
 ---
 
-## 🔬 Les Résultats : Théorèmes Vérifiés par Machine (0 sorry)
+## 🔬 Les Résultats : Théorèmes Vérifiés par Machine (`0 sorry`)
 
 | Théorème Lean 4 | Énoncé | Origine |
 |:---|:---|:---:|
