@@ -7,12 +7,12 @@
 
 </div>
 
-**Trois axes spatiaux (`x`, `y`, `z`) et une seule variable `d` — arbitrairement grande, la même pour les positions le long de chaque axe et pour l'espace de Hilbert ℂᵈ.**
+**Trois axes spatiaux (x, y, z) et une seule variable d — arbitrairement grande, la même pour les positions le long de chaque axe et pour l'espace de Hilbert ℂᵈ.**
 
-Avant toute physique, le socle construit dans `Mathlib` est de l'algèbre pure d'opérateurs hermitiens qui ne commutent pas : tout ce que l'on mesure ou calcule est fini (`d` états de position `P_d` par axe), et la paire transport–position `(T_d, P_d)` partage la même dimension `d` sur chacun des trois axes de ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ.
+Avant toute physique, le socle construit dans `Mathlib` est de l'algèbre pure d'opérateurs hermitiens qui ne commutent pas : tout ce que l'on mesure ou calcule est fini (d états de position P_d par axe), et la paire transport–position (T_d, P_d) partage la même dimension d sur chacun des trois axes de ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ.
 
-* **Le verrou asymptotique de Szegő (Lean 4, `0 sorry`) :** la géométrie fibrée ℝ³ × S¹ était déjà connue pour soutenir le continu, mais il restait à prouver que les paquets gaussiens ne saturent plus dès `d ≥ 4`, quelle que soit la résolution `d → ∞`. Sous cette unique variable `d`, la saturation exacte n'a lieu qu'en `d ∈ {2, 3}` ; pour **tout `d ≥ 4` jusqu'à l'infini**, le défaut reste enfermé entre C_M(4) = (94 − 42√5)/5 > 0 et π²/3 − 3 — **il ne retombe jamais à zéro et ne diverge jamais quand la boîte grandit.**
-* **Un temps propre relativiste local et ses conséquences :** le pas spatial `a` s'élimine dans le rapport à la vitesse limite ; le temps compte les pas propres de chaque système (`n · τ_pas = 0 ⟺ n = 0` — quand un système cesse d'avancer, *son* temps propre s'arrête tandis que ceux qui disposent encore de pas continuent). De ce même socle découlent l'écart spectral de masse de jauge, la taille minimale des matrices de Dirac (`d ≥ 4`), les bits de Bekenstein–Hawking sur la frontière, l'entropie de de Sitter et la stabilité orbitale en `d = 3` axes spatiaux (`d + 1 = 4`, Gołąb–Ehrenfest).
+* **Le verrou asymptotique de Szegő (Lean 4, `0 sorry`) :** la géométrie fibrée ℝ³ × S¹ était déjà connue pour soutenir le continu, mais il restait à prouver que les paquets gaussiens ne saturent plus dès d ≥ 4, quelle que soit la résolution d → ∞. Sous cette unique variable d, la saturation exacte n'a lieu qu'en d ∈ {2, 3} ; pour **tout d ≥ 4 jusqu'à l'infini**, le défaut reste enfermé entre C_M(4) = (94 − 42√5)/5 > 0 et π²/3 − 3 — **il ne retombe jamais à zéro et ne diverge jamais quand la boîte grandit.**
+* **Un temps propre relativiste local et ses conséquences :** le pas spatial a s'élimine dans le rapport à la vitesse limite ; le temps compte les pas propres de chaque système (n · τ_pas = 0 ⟺ n = 0 — quand un système cesse d'avancer, *son* temps propre relativiste s'arrête tandis que ceux qui disposent encore de pas continuent). De ce même socle découlent l'écart spectral de masse de jauge, la taille minimale des matrices de Dirac (d ≥ 4), les bits de Bekenstein–Hawking sur la frontière, l'entropie de de Sitter et la stabilité orbitale en d = 3 axes spatiaux (d + 1 = 4, Gołąb–Ehrenfest).
 
 <div align="center">
 
@@ -55,7 +55,7 @@ niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>
 ---
 
 <details>
-<summary><b><font size="+1">🔒 00 · Substrat &amp; Moteur d'Exécution Propriétaire (Kernel &amp; Hardware Engine) — <i>Cliquer pour déplier le protocole d'accès</i></font></b></summary>
+<summary><b>🔒 00 · Substrat &amp; Moteur d'Exécution Propriétaire (Kernel &amp; Hardware Engine) — <i>Cliquer pour déplier le protocole d'accès</i></b></summary>
 <br>
 
 > **Substrat bare-metal et modules du noyau Linux :**  
@@ -122,7 +122,7 @@ niveau en C, Rust et Python, protocole de contexte partagé multi-agents (<code>
 
 </div>
 
-### ⟡ Pilier IV · Le Temps Propre Quantique & la Vitesse Limite à Quatre Sites
+### ⟡ Pilier IV · Le Temps Propre Relativiste Quantique & la Vitesse Limite à Quatre Sites
 
 > **Thèse canonique :** *Le temps élémentaire compte les pas d'action à la vitesse limite de transfert, liant l'intervalle temporel propre à la pulsation du réseau sans paramètre libre.*
 
@@ -234,7 +234,7 @@ Le cadre formel complet est constitué des [**53 contributions (pull requests) f
 
 </div>
 
-* **NRS³ · Cube 3D & Chaîne Ouverte** ([#1725](https://github.com/leanprover-community/physlib/pull/1725), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987), [#2096](https://github.com/leanprover-community/physlib/pull/2096)) : saturation exacte defectGram(d) = 0 ⇔ d ≤ 3, commutation inter-axes, chaîne ouverte comme saut du graphe chemin (#2096), coordination Δ = 12. C'est la source du tight-binding.
+* **NRS³ · Cube 3D & Chaîne Ouverte** ([#1725](https://github.com/leanprover-community/physlib/pull/1725), [#1961](https://github.com/leanprover-community/physlib/pull/1961), [#1986](https://github.com/leanprover-community/physlib/pull/1986), [#1987](https://github.com/leanprover-community/physlib/pull/1987), [#2096](https://github.com/leanprover-community/physlib/pull/2096)) : saturation exacte defectGram(d) = 0 ⇔ d ≤ 3, commutation inter-axes, chaîne ouverte comme saut du graphe chemin (#2096), coordination Δ = 12. C'est la source de la chaîne à liaisons fortes.
 * **NRS³ · Hopf** ([#1885](https://github.com/leanprover-community/physlib/pull/1885), [#1886](https://github.com/leanprover-community/physlib/pull/1886)) : revêtement SL(2, ℂ) → SO⁺(1,3) et fibration S³ → S² de fibre S¹. C'est la source de la fibration.
 * **Lemme de Schur** ([#1822](https://github.com/leanprover-community/physlib/pull/1822), [#1844](https://github.com/leanprover-community/physlib/pull/1844)) : non-décroissance des formes de covariance sous applications unitales positives.
 * **Spectre et limite de Szegő** ([#1901](https://github.com/leanprover-community/physlib/pull/1901), [#1734](https://github.com/leanprover-community/physlib/pull/1734), [#1735](https://github.com/leanprover-community/physlib/pull/1735), [#1739](https://github.com/leanprover-community/physlib/pull/1739), [#2122](https://github.com/leanprover-community/physlib/pull/2122)) : forme fermée C_N² → π²/3 − 2, monotonie de Bernstein d'ordre 12, saturation du ratio de Mandelstam–Tamm à 1/C_N².
