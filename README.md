@@ -5,13 +5,12 @@
 
 **"De l'incertitude élémentaire dimensionnelle et de ses conséquences physiques"**
 
-*Ce que cela veut dire, concrètement :
-Se déplacer, c'est transporter une position le long d'un axe. À deux ou trois pas, 
-ce transport peut être parfait : rien ne se perd. À partir de quatre pas, il ne peut 
-plus l'être : il reste toujours un petit écart, impossible à effacer, mais jamais 
-infini. Cet écart a un prix en énergie. Ce prix, c'est la masse.* 
+**Trois axes spatiaux (`x`, `y`, `z`) et une seule variable `d` — arbitrairement grande, la même pour les positions le long de chaque axe et pour l'espace de Hilbert ℂᵈ.**
 
-**Tout le reste — le confinement de jauge, la gravité, le temps propre relativiste — suit de cet écart.**
+Avant toute physique, le socle construit dans `Mathlib` est de l'algèbre pure d'opérateurs hermitiens qui ne commutent pas : tout ce que l'on mesure ou calcule est fini (`d` états de position `P_d` par axe), et la paire transport–position `(T_d, P_d)` partage la même dimension `d` sur chacun des trois axes de ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ.
+
+* **Le verrou asymptotique de Szegő (Lean 4, `0 sorry`) :** la géométrie fibrée ℝ³ × S¹ était déjà connue pour soutenir le continu, mais il restait à prouver que les paquets gaussiens ne saturent plus dès `d ≥ 4`, quelle que soit la résolution `d → ∞`. Sous cette unique variable `d`, la saturation exacte n'a lieu qu'en `d ∈ {2, 3}` ; pour **tout `d ≥ 4` jusqu'à l'infini**, le défaut reste enfermé entre `C_M(4) = (94 − 42√5)/5 > 0` et `π²/3 − 3` — **il ne retombe jamais à zéro et ne diverge jamais quand la boîte grandit.**
+* **Un temps propre relativiste local et ses conséquences :** le pas spatial `a` s'élimine dans le rapport à la vitesse limite ; le temps compte les pas propres de chaque système (`n · τ_pas = 0 ⟺ n = 0` — quand un système cesse d'avancer, *son* temps propre s'arrête tandis que ceux qui disposent encore de pas continuent). De ce même socle découlent le saut de masse de jauge, la taille minimale des matrices de Dirac (`d ≥ 4`), les bits de Bekenstein–Hawking sur la frontière, l'entropie de de Sitter et la stabilité orbitale en `d = 3` axes spatiaux (`d + 1 = 4`, Gołąb–Ehrenfest).
 
 <a href="https://github.com/naype888-cloud/bacqm-systems"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/00-bacqm-substrate.svg"><img src="assets/cards/00-bacqm-substrate.svg" alt="00 · bacqm-substrate" width="380"></picture></a>
 <a href="https://github.com/naype888-cloud/nava-robertson-schrodinger"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/01-nava-robertson-schrodinger.svg"><img src="assets/cards/01-nava-robertson-schrodinger.svg" alt="01 · nava-robertson-schrodinger" width="380"></picture></a><br>
